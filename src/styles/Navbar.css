@@ -1,0 +1,34 @@
+.navbar {
+    top: 0vh;
+    height: 0px;
+    position: sticky;
+    z-index: 1000;
+}
+.navbar .navbar-logo {
+    margin-left: 3.5em;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.navbar .navbar-content {
+    height: var(--navbar-height);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    background-color: skyblue;
+}
+.navbar .links-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 4em;
+}
+.navbar .links-container .link {
+    font-size: 1.3em;
+    margin-left: 1em;
+    padding-left: .75em;
+    cursor: pointer;
+}
+.navbar .links-container .link:hover {
+    color: #db35f1;
+}

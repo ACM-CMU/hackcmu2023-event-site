@@ -1,0 +1,28 @@
+.faq-page {
+    height: 100vh;
+    color: black;
+}
+.faq-page .faq-content {
+    height: 100%;
+}
+.faq-page .faq-header {
+    height: 5vh;
+}
+.faq-page .faq-title {
+    font-size: 3em;
+    color:rgb(105, 225, 255); 
+}
+.faq-page .faq-q-a-container {
+    margin: 2vh auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.faq-page .faq-q {
+    text-align: left;
+    font-weight: bold;
+}
+.faq-page .faq-a {
+    text-align: left;
+    margin-left: 5vh;
+}

@@ -1,0 +1,21 @@
+.schedule-page {
+    height: 200vh;
+    color: black;
+}
+.schedule-page .schedule-content {
+    height: 100%;
+}
+.schedule-page .schedule-header {
+    height: 5vh;
+}
+.schedule-page .schedule-title {
+    font-size: 3em;
+    color:rgb(105, 225, 255); 
+}
+.schedule-page .schedule-box {
+    height: 80%;
+    margin: 5vh auto;
+    width: 15px;
+    border-radius: 10px;
+    background-color: lightgray;
+}   

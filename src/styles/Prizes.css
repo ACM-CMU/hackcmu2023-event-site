@@ -1,0 +1,14 @@
+.prizes-page {
+    height: 100vh;
+    color: black;
+}
+.prizes-page .prizes-content {
+    height: 100%;
+}
+.prizes-page .prizes-header {
+    height: 5vh;
+}
+.prizes-page .prizes-title {
+    font-size: 3em;
+    color:rgb(105, 225, 255); 
+}

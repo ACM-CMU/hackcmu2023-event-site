@@ -5,7 +5,7 @@ const Schedule = () => {
         <div className="schedule-page">
             <div className="schedule-content">
                 <div className='schedule-header'></div>
-                <div className='schedule-title'>Schedule</div>
+                <div className='schedule-title'>SCHEDULE</div>
                 <div>(some fancy schedule component here)</div>
                 <div className='schedule-box'></div>
             </div>

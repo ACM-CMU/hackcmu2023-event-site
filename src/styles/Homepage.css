@@ -28,6 +28,7 @@
 
 .home-page .home-page-logo {
     font-size: 8em;
+    letter-spacing: 3px;
     position: relative;
     color: white;
     z-index: 4;

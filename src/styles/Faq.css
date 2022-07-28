@@ -1,6 +1,6 @@
 .faq-page {
     height: 100vh;
-    color: black;
+    color: rgb(150, 177, 225);
 }
 .faq-page .faq-content {
     height: 100%;
@@ -25,4 +25,12 @@
 .faq-page .faq-a {
     text-align: left;
     margin-left: 5vh;
+}
+
+.row-title-text {
+    color: black;
+}
+
+.faq-header {
+    color:rgb(105, 225, 255);
 }

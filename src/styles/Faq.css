@@ -30,6 +30,7 @@
 .row-title-text {
     background-image: linear-gradient(45deg, rgb(131, 131, 237), rgb(199, 128, 199));
     background-clip: text;
+    font-weight: bold;
     color: transparent;
 }
 
@@ -47,11 +48,11 @@
     color:aqua;
 }
 .icon-wrapper {
+    background-image: linear-gradient(45deg, rgb(137, 174, 234), rgb(204, 180, 237));
     color: aqua;
 
 }
 .row-content{
-    color: aqua;
     padding: 5px;
 }
 .row-title{

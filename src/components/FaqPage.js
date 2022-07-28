@@ -19,6 +19,34 @@ const FaqPage = () => {
             title: "Q: Why is HackCMU?",
             content: `We want free stuff! You want free stuff! It all works out! Less gooo!!!`,
         },
+        {
+            title: "Q: How much does this cost?",
+            content: `$0! We'll provide meals, snacks, drinks, and lots of swag, thanks to the support of our wonderful sponsors.`,
+        },
+        {
+            title: "Q: I’m not a “hacker”, can I still participate?",
+            content: `Students of all skill levels are encouraged to attend, even if you’ve never written a line of code! Creative individuals of all kinds are welcome to apply — such as designers, ECE majors, statistics, etc. The only requirement is your attitude to learn!`,
+        },
+        {
+            title: "Q: Are there teams? Do I need one to sign up!",
+            content: `Working as a team is highly encouraged, but not required. We'll be facilitating team-forming the day-of, so don't be discouraged if you don't have a team!`,
+        },
+        {
+            title: "Q: How big can a team be?!",
+            content: `Up to 4 people`,
+        },
+        {
+            title: "Q: What are the rules? Can I work on my project ahead of time?",            
+            content: `All work must be original, and you are not permitted to start building or designing your project until the event. Brainstorming ideas and forming teams beforehand is fine, though.`,
+        },
+        {
+            title: "Q: Who runs this event?",            
+            content: `You can learn more about us over here.`,
+        },
+        {
+            title: "Q: Any other questions, comments, or concerns?",            
+            content: `Email us at acm-exec[at]cs.cmu.edu.`,
+        },
     ]
     }
     

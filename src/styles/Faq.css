@@ -28,9 +28,32 @@
 }
 
 .row-title-text {
-    color: black;
+    background-image: linear-gradient(45deg, rgb(131, 131, 237), rgb(199, 128, 199));
+    background-clip: text;
+    color: transparent;
 }
 
 .faq-header {
     color:rgb(105, 225, 255);
+}
+.faq-row-wrapper{
+    color:rgb(105, 225, 255);
+    padding: 300px
+}
+.faq-row {
+    color:rgb(105, 225, 255);
+}
+.row-body{
+    color:aqua;
+}
+.icon-wrapper {
+    color: aqua;
+
+}
+.row-content{
+    color: aqua;
+    padding: 5px;
+}
+.row-title{
+    color: blue;
 }

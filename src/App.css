@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Mono&display=swap');
 
 * {
-  font-family: "IBM Plex Mono";
+  /* font-family: "IBM Plex Mono"; */
   
   /* variables */
   --navbar-height: max(8vh, 40px);

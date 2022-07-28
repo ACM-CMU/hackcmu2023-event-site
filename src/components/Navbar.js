@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-content">
                 <Link to="home-page" smooth={true}>
-                    <div className="navbar-logo">HackCMU LOGO!</div>                
+                    <div className="navbar-logo">HackCMU</div>                
                 </Link>
                 <div className="links-container">               
                     <Link to="home-page" smooth={true}>

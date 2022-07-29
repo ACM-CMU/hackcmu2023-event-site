@@ -10,7 +10,7 @@
     font-size: 1.5em;
     cursor: pointer;
 }
-.navbar .navbar-logo .navbar:hover {
+.navbar .navbar-logo:hover {
     background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

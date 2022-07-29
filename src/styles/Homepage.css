@@ -30,10 +30,15 @@
     font-size: 8em;
     letter-spacing: 3px;
     position: relative;
-    background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    background: linear-gradient(to right, #8200b6, #cc14ff,#ff00e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: glowing-circle-animation 5s linear infinite;
+    animation: shine 5s linear infinite;
+    @keyframes shine {
+        to {
+            background-position: 200% center;
+        }
+    }
     z-index: 4;
 }
     /* if you wanna make words pulsing / gradient colored, then here are the styles:  */

@@ -30,7 +30,9 @@
     font-size: 8em;
     letter-spacing: 3px;
     position: relative;
-    color: linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     animation: glowing-circle-animation 5s linear infinite;
     z-index: 4;
 }

@@ -87,7 +87,7 @@
     /* background-repeat: repeat-x; */
     /* animation: glowing-circle-animation 5s linear infinite; */
 }
-@keyframes slide {
+/*@keyframes slide {
     0% {
       transform: translate(0);
     }
@@ -103,7 +103,7 @@
     transform: rotate(360deg);
 }
 }
-.home-page #home-page-circle-1 span {
+/*.home-page #home-page-circle-1 span {
     position: absolute;
     display: block;
     width: 100%;
@@ -122,8 +122,8 @@
 }
 .home-page #home-page-circle-1 span:nth-child(4) {
     filter: blur(50px);
-}
-.home-page #home-page-circle-1:after {
+}*/
+/*.home-page #home-page-circle-1:after {
     content: '';
     position: absolute;
     top: 20px;
@@ -132,7 +132,7 @@
     right: 20px;
     background: black;
     border-radius: 50%;
-}
+}*/
 
 /* in case you want more circles */
 /*.home-page #home-page-circle-2 {

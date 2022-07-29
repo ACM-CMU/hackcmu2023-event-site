@@ -30,7 +30,8 @@
     font-size: 8em;
     letter-spacing: 3px;
     position: relative;
-    color: white;
+    color: linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    animation: glowing-circle-animation 5s linear infinite;
     z-index: 4;
 }
     /* if you wanna make words pulsing / gradient colored, then here are the styles:  */
@@ -71,13 +72,13 @@
     width: 65vh;
     display: center;
     z-index: 3;
-    background: linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    /*background: linear-gradient(#8200b6, #cc14ff,#ff00e0);*/
     /* if you wanna make background nebula image*/
     /* background: linear-gradient(#5b04de, #007ea8); */
     /* background: black; */
     /* background-image: url("../../public/nebula-purple.jpg"); */
     /* background-repeat: repeat-x; */
-    animation: glowing-circle-animation 5s linear infinite;
+    /* animation: glowing-circle-animation 5s linear infinite; */
 }
 @keyframes slide {
     0% {

@@ -35,9 +35,9 @@
     -webkit-text-fill-color: transparent;
     animation: shine 5s linear infinite;
     @keyframes shine {
-        to {
-            background-position: 200% center;
-        }
+        0% { background-position: 0px 50%; }
+	    50% { background-position: 100% 50%; }
+	    100% { background-position: 0px 50%; }
     }
     z-index: 4;
 }
@@ -87,7 +87,7 @@
     /* background-repeat: repeat-x; */
     /* animation: glowing-circle-animation 5s linear infinite; */
 }
-/*@keyframes slide {
+@keyframes slide {
     0% {
       transform: translate(0);
     }

@@ -33,7 +33,7 @@
     background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: glowing-circle-animation 5s linear infinite;
+    -webkit-animation: glowing-circle-animation 5s linear infinite;
     z-index: 4;
 }
     /* if you wanna make words pulsing / gradient colored, then here are the styles:  */

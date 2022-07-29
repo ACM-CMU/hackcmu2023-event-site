@@ -6,7 +6,7 @@
 }
 .navbar .navbar-logo {
     margin-left: 3.5em;
-    color: black;
+    color: white;
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -14,7 +14,7 @@
     height: var(--navbar-height);
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: black;
 }
 .navbar .links-container {
     display: flex;
@@ -27,7 +27,7 @@
     margin-left: 1em;
     padding-left: .75em;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 .navbar .links-container .link:hover {
     color: #db35f1;

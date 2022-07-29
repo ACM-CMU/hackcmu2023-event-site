@@ -14,7 +14,19 @@
     background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transform: rotate(-15deg);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 2em #fff, 0 0 2.5em #fff, 0 0 3em #fff;
+    }
+
+    to {
+        text-shadow: 0 0 2.5em #fff, 0 0 3em #fff;
+    }
 }
 .navbar .navbar-content {
     height: var(--navbar-height);

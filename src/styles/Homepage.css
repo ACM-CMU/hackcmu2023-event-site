@@ -70,12 +70,12 @@
         top: -10em;
     }
 }
-.home-page .home-page-circle {
+/*.home-page .home-page-circle {
     background-color: black;
     border-radius: 50%;
     margin: auto;
     position: absolute;
-}
+}*/
 .home-page #home-page-circle-1 {
     height: 65vh;
     width: 65vh;

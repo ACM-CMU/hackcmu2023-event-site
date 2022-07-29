@@ -31,6 +31,7 @@
     letter-spacing: 3px;
     position: relative;
     background: linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animated_home_logo 10s ease-in-out infinite;

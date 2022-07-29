@@ -31,4 +31,5 @@
 }
 .navbar .links-container .link:hover {
     color: #db35f1;
+    transform: -rotate(45deg);
 }

@@ -10,6 +10,12 @@
     font-size: 1.5em;
     cursor: pointer;
 }
+.navbar .navbar-logo .navbar:hover {
+    background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(-15deg);
+}
 .navbar .navbar-content {
     height: var(--navbar-height);
     display: flex;
@@ -29,11 +35,7 @@
     cursor: pointer;
     color: white;
 }
-.navbar .navbar-logo .navbar:hover {
-    background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 .navbar .links-container .link:hover {
     color: #db35f1;
     transform: rotate(-15deg);

@@ -7,9 +7,11 @@ Clone the directory onto your computer and ```cd``` into the project directory :
 git clone [...link here...]
 cd hackcmu2022-event-site
 ```
+
 To install Node.js and npm, go [here](https://nodejs.org/en/download/)
-```
+
 If this is your first time running the website, run:
+
 ```
 npm install
 ```

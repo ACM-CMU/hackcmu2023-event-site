@@ -9,11 +9,12 @@
     height: 5vh;
 }
 .schedule-page .schedule-title {
-    font-size: 3em;
+    font-size: 5em;
     letter-spacing: 3px;
-    background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    color: #db35f1;
+    /* background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 .schedule-page .schedule-box {
     height: 80%;

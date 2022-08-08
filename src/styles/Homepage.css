@@ -74,8 +74,7 @@
     display: center;
     z-index: 3;
     background: linear-gradient(#8200b6, #cc14ff,#ff00e0);
-    /* animation: glowing-circle-animation 5s linear infinite; */
-
+    animation: glowing-circle-animation 5s linear infinite;
     /* if you wanna make background nebula image*/
     /* background: linear-gradient(#5b04de, #007ea8); */
     /* background: black; */

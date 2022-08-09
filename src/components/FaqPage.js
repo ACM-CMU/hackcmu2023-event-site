@@ -12,8 +12,7 @@ const FaqPage = () => {
         },
         {
             title: "Q: Where is HackCMU?",
-            content:
-                `Probably in Gates, but idk! No details at this point yet! We will probably figure this out at some point broskis!`,
+            content: `Probably in Gates, but idk! No details at this point yet! We will probably figure this out at some point broskis!`,
         },
         {
             title: "Q: Why is HackCMU?",

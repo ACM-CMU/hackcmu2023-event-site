@@ -8,6 +8,7 @@ const Schedule = () => {
                 <div className='schedule-title'>SCHEDULE</div>
                 <div>(some fancy schedule component here)</div>
                 <div className='schedule-box'></div>
+                <div className = 'container-after'></div>
             </div>
         </div>
     );

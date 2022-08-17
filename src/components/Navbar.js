@@ -21,6 +21,9 @@ const Navbar = () => {
                     <Link to="prizes-page" smooth={true} offset={-0.08*window.innerHeight}>
                         <div className="link">Prizes</div>
                     </Link>
+                    <Link to="sponsors-page" smooth={true} offset={-0.08*window.innerHeight}>
+                        <div className="link">Sponsors</div>
+                    </Link>
                 </div>
             </div>
         </nav>

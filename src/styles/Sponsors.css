@@ -1,0 +1,89 @@
+.sponsors-page {
+    background-color: black;
+}
+.sponsors-page .sponsors-content {
+    height: 100%;
+}
+.sponsors-page .sponsors-header {
+    height: 5vh;
+}
+.sponsors-page .sponsors-footer {
+    height: 20vh;
+}
+.sponsors-page .sponsors-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 5em;
+    color:#db35f1;
+    padding-bottom: 15px;
+}
+.sponsors-level {
+    font-family: 'Lexend', cursive;
+    font-weight: 600;
+    font-size: 2em;
+    color:#766cdf;
+}
+.sponsors-page .sponsors-q-a-container {
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-content{
+    padding: 5px;
+}
+
+.sponsors {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto; 
+    border-radius: 20px !important;
+}
+
+.sponsors img:hover {
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+    
+.sponsors.sponsors-gold img {
+    width: 100%; 
+}
+
+.sponsors.sponsors-gold a {
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 2em;
+    min-width: 250px; 
+}
+
+.sponsors.sponsors-silver {
+    margin-top: 2.5rem;
+}
+.sponsors.sponsors-silver img {
+    max-width: 70%;
+}
+.sponsors.sponsors-silver a {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 25%;
+    min-width: 100px; 
+}
+
+.sponsors.sponsors-bronze {
+    margin-bottom: 0.5rem;
+}
+.sponsors.sponsors-bronze img {
+    width: auto;
+    height: 50px; 
+}
+.sponsors.sponsors-bronze a {
+    width: auto;
+    height: 50px;
+    min-height: 100px;
+    margin: 10px 10px; 
+}

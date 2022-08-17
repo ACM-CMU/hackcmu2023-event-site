@@ -9,6 +9,11 @@
     height: 5vh;
 }
 .prizes-page .prizes-title {
+    font-family: 'Fredoka One', cursive;
     font-size: 5em;
     color: #db35f1;
+}
+.prizes-page {
+    width: 100%;
+    height: auto;
 }

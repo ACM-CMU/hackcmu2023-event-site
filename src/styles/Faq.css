@@ -11,6 +11,7 @@
     height: 20vh;
 }
 .faq-page .faq-title {
+    font-family: 'Fredoka One', cursive;
     font-size: 5em;
     color:#db35f1;
 }
@@ -18,6 +19,11 @@
     margin: 2vh auto;
     display: flex;
     flex-direction: column;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+    padding-top: 10px !important;
+    padding-left: 5px !important;
 }
 .faq-page .faq-q {
     text-align: left;
@@ -29,35 +35,45 @@
 }
 
 .row-title-text {
+    font-family: 'Lexend', sans-serif;
     background-image: linear-gradient(45deg, rgb(131, 131, 237), rgb(199, 128, 199));
     background-clip: text;
     font-weight: bold;
     color: transparent;
 }
 
+.styles_icon-wrapper__2cftw {
+    top: 15px !important;
+}
 
-.faq-header {
-    color:rgb(105, 225, 255);
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 25px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+}
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c { 
+    border-bottom: 0px solid #ccc !important;
 }
 .faq-body {
-    background-color: black;
+    background-image: linear-gradient(45deg, rgb(131, 131, 237), rgb(199, 128, 199));
+    padding: 50px;
+    border-radius: 25px;
+
 }
 .faq-row-wrapper{
     color:rgb(105, 225, 255);
 }
 .faq-row-wrapper{
     padding: 130px;
-    /* background-image: url("https://img.freepik.com/free-vector/watercolor-galaxy-background_79603-2384.jpg?w=2000"); */
-    /* background-image: linear-gradient(45deg, rgb(226, 226, 235), rgb(238, 220, 238)); */
-}
-.row-body{
-    color:aqua;
+    background-color: black !important;
 }
 
 .icon-wrapper {
     clip-path: circle(50%);
     background-image: linear-gradient(45deg, rgb(137, 174, 234), rgb(204, 180, 237));
-    color: aqua;
 }
 .row-content{
     padding: 5px;

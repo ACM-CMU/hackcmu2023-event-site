@@ -5,32 +5,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
 } 
 .home-page .home-page-caption {
-    color: black;
-    z-index: 4;
-    position: relative;
-}
-.home-page .home-page-sign-up {
     color: white;
-    margin: auto;
-    width: fit-content;
     z-index: 4;
     position: relative;
-    font-size: 1.5em;
-    cursor: pointer;
-    color: rgb(245, 105, 255); 
-}
-.home-page .home-page-sign-up:hover {
-    color: #db35f1;
 }
 
 .home-page .home-page-logo {
     font-size: 8em;
+    letter-spacing: 3px;
     position: relative;
-    color: black;
+    color: white;
+    /* color: rgb(245, 105, 255); */
+    /* background: linear-gradient(-45deg, #94259c, #ff0af2); */
+    /*background: linear-gradient(#8200b6, #cc14ff,#ff00e0);*/
+    /* background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_home_logo 5s ease-in-out infinite;
+	-moz-animation: animated_home_logo 5s ease-in-out infinite;
+	-webkit-animation: animated_home_logo 5s ease-in-out infinite;  */
     z-index: 4;
+}
+@keyframes animated_home_logo {
+    0% { background-position: 0px 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0px 50%; }
 }
     /* if you wanna make words pulsing / gradient colored, then here are the styles:  */
     /* color: rgb(245, 105, 255);   
@@ -46,6 +48,7 @@
 	50% { background-position: 100% 50%; }
 	100% { background-position: 0px 50%; }
 } */
+
 .home-page .home-page-circle-container {
     height: 0;
     display: flex;
@@ -54,7 +57,7 @@
     position: relative;
     top: -4em;
 }
-@media only screen and (max-width: 888px) {
+@media only screen and (max-width: 985px) {
     .home-page .home-page-circle-container {
         top: -10em;
     }
@@ -71,12 +74,13 @@
     display: center;
     z-index: 3;
     background: linear-gradient(#8200b6, #cc14ff,#ff00e0);
+    animation: glowing-circle-animation 5s linear infinite;
     /* if you wanna make background nebula image*/
     /* background: linear-gradient(#5b04de, #007ea8); */
     /* background: black; */
     /* background-image: url("../../public/nebula-purple.jpg"); */
     /* background-repeat: repeat-x; */
-    animation: glowing-circle-animation 10s linear infinite;
+    /* animation: glowing-circle-animation 5s linear infinite; */
 }
 @keyframes slide {
     0% {
@@ -87,12 +91,12 @@
     }
   }
 @keyframes glowing-circle-animation {
-0% {
-    transform: rotate(0deg);
-}
-100% {
-    transform: rotate(360deg);
-}
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }   
 }
 .home-page #home-page-circle-1 span {
     position: absolute;
@@ -121,12 +125,12 @@
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background: white;
+    background: black;
     border-radius: 50%;
 }
 
 /* in case you want more circles */
-/* .home-page #home-page-circle-2 {
+/*.home-page #home-page-circle-2 {
     height: 60vh;
     width: 60vh;
     z-index: 2;

@@ -1,6 +1,5 @@
 .faq-page {
-    height: 100vh;
-    color: rgb(150, 177, 225);
+    background-color: black;
 }
 .faq-page .faq-content {
     height: 100%;
@@ -8,13 +7,15 @@
 .faq-page .faq-header {
     height: 5vh;
 }
+.faq-page .faq-footer {
+    height: 20vh;
+}
 .faq-page .faq-title {
-    font-size: 3em;
-    color:rgb(105, 225, 255); 
+    font-size: 5em;
+    color:#db35f1;
 }
 .faq-page .faq-q-a-container {
     margin: 2vh auto;
-    width: 50vw;
     display: flex;
     flex-direction: column;
 }
@@ -34,18 +35,29 @@
     color: transparent;
 }
 
+
+.faq-header {
+    color:rgb(105, 225, 255);
+}
+.faq-body {
+    background-color: black;
+}
+.faq-row-wrapper{
+    color:rgb(105, 225, 255);
+}
 .faq-row-wrapper{
     padding: 130px;
     /* background-image: url("https://img.freepik.com/free-vector/watercolor-galaxy-background_79603-2384.jpg?w=2000"); */
     /* background-image: linear-gradient(45deg, rgb(226, 226, 235), rgb(238, 220, 238)); */
-
+}
+.row-body{
+    color:aqua;
 }
 
 .icon-wrapper {
     clip-path: circle(50%);
     background-image: linear-gradient(45deg, rgb(137, 174, 234), rgb(204, 180, 237));
     color: aqua;
-
 }
 .row-content{
     padding: 5px;

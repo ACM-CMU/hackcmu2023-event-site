@@ -5,6 +5,11 @@
   
   /* variables */
   --navbar-height: max(8vh, 40px);
+
+   /* variables used for faq page*/
+  --row-title-text-size: 1.5em;
+  --row-content-color: white;
+  --row-content-text-size: 1.2em;
 }
 
 .App {

@@ -5,8 +5,8 @@ const Homepage = () => {
         <div className="home-page">
             <div className="home-page-content">
                 <div className="home-page-center-content">
-                    <div className="home-page-logo">HackCMU 2022</div>
-                    <div className="home-page-caption">Presented by ACM@CMU</div>
+                    <div className="home-page-logo">HACKCMU 2022</div>
+                    <div className="home-page-caption">PRESENTED BY ACM@CMU</div>
                 </div>
                 <div className="home-page-circle-container">
                     <div className="home-page-circle" id="home-page-circle-1">

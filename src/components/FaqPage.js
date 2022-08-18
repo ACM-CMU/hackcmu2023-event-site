@@ -39,13 +39,17 @@ const FaqPage = () => {
                 content: `All work must be original, and you are not permitted to start building or designing your project until the event. Brainstorming ideas and forming teams beforehand is fine, though.`,
             },
             {
+                title: "Q: How can I be entered into the raffle?",
+                content: `You'll be automatically entered into the raffle if you submit a project by the due date!`,
+            },
+            {
                 title: "Q: Who runs this event?",            
                 content: `You can learn more about us over here.`,
             },
             {
                 title: "Q: Any other questions, comments, or concerns?",            
                 content: `Email us at acm-exec[at]cs.cmu.edu.`,
-            },
+            } 
         ]
     }
     

@@ -51,6 +51,7 @@
     
 .sponsors.sponsors-gold img {
     width: 100%; 
+    border-radius: 20px;
 }
 
 .sponsors.sponsors-gold a {

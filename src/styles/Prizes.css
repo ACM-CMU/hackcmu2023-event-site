@@ -1,6 +1,7 @@
 .prizes-page {
     height: 100vh;
-    color: black;
+    color: white;
+    background-color: black;
 }
 .prizes-page .prizes-content {
     height: 100%;

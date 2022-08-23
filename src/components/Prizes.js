@@ -22,7 +22,7 @@ const Prizes = () => {
                             <CardMedia
                                 component="img"
                                 height="250"
-                                image="./imgs/mechkey.jpg"
+                                image="../../imgs/mechkey.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
@@ -41,7 +41,7 @@ const Prizes = () => {
                             <CardMedia
                                 component="img"
                                 height="250"
-                                image="./imgs/lego.jpg"
+                                image="../../imgs/lego.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
@@ -60,7 +60,7 @@ const Prizes = () => {
                             <CardMedia
                                 component="img"
                                 height="250"
-                                image="./imgs/echo.jpg"
+                                image="../../imgs/echo.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
@@ -87,8 +87,8 @@ const Prizes = () => {
                         <Card variant="outlined" sx={{width: "40vh", height: "40vh", margin:"auto"}}>
                             <CardMedia
                                 component="img"
-                                height="250"
-                                image="./imgs/charger.jpg"
+                                height="280"
+                                image="../../imgs/charger.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
@@ -106,18 +106,17 @@ const Prizes = () => {
                     <Card variant="outlined" sx={{width: "40vh", height: "40vh"}}>
                             <CardMedia
                                 component="img"
-                                height="150"
-                                image="../../nebula-purple.jpg"
+                                height="250"
+                                image="../../imgs/pinkblueoctopus.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Prize 5 - Super cool!
+                                    Reversible Octopus Plush (Pink and Blue)
                                 </Typography>
                                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                    Because you did some cool stuff
+                                    (Raffle Prize)
                                 </Typography>
                                 <Typography variant="body2">
-                                    Some description of how cool this is
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -126,18 +125,17 @@ const Prizes = () => {
                     <Card variant="outlined" sx={{width: "40vh", height: "40vh"}}>
                             <CardMedia
                                 component="img"
-                                height="150"
-                                image="../../nebula-purple.jpg"
+                                height="250"
+                                image="../../imgs/grayblueoctopus.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Prize 6 - Super cool!
+                                    Reversible Octopus Plush (Gray and Blue)
                                 </Typography>
                                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                    Because you did some cool stuff
+                                    (Raffle Prize)
                                 </Typography>
                                 <Typography variant="body2">
-                                    Some description of how cool this is
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -155,18 +153,17 @@ const Prizes = () => {
                         <Card variant="outlined" sx={{width: "40vh", height: "40vh", margin:"auto"}}>
                             <CardMedia
                                 component="img"
-                                height="150"
-                                image="../../nebula-purple.jpg"
+                                height="250"
+                                image="../../imgs/turtle.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Prize 7 - Super cool!
+                                    Reversible Turtle Plush
                                 </Typography>
                                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                    Because you did some cool stuff
+                                    (Raffle Prize)
                                 </Typography>
                                 <Typography variant="body2">
-                                    Some description of how cool this is
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -175,18 +172,17 @@ const Prizes = () => {
                     <Card variant="outlined" sx={{width: "40vh", height: "40vh"}}>
                             <CardMedia
                                 component="img"
-                                height="150"
-                                image="../../nebula-purple.jpg"
+                                height="250"
+                                image="../../imgs/pinkbluenarwhal.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Prize 8 - Super cool!
+                                    Reversible Narwhal Plush (Pink and Blue)
                                 </Typography>
                                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                    Because you did some cool stuff
+                                    (Raffle Prize)
                                 </Typography>
                                 <Typography variant="body2">
-                                    Some description of how cool this is
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -195,18 +191,17 @@ const Prizes = () => {
                     <Card variant="outlined" sx={{width: "40vh", height: "40vh"}}>
                             <CardMedia
                                 component="img"
-                                height="150"
-                                image="../../nebula-purple.jpg"
+                                height="250"
+                                image="../../imgs/blackwhitenarwhal.jpg"
                             />
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Prize 9 - Super cool!
+                                    Reversible Narwhal Plush, Black and White
                                 </Typography>
                                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                    Because you did some cool stuff
+                                    (Raffle Prize)
                                 </Typography>
                                 <Typography variant="body2">
-                                    Some description of how cool this is
                                 </Typography>
                             </CardContent>
                         </Card>

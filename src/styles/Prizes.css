@@ -18,10 +18,32 @@
     width: 100%;
     height: auto;
 }
+.prizes-img-and-caption {
+    width: fit-content;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 900px) {
+    .prizes-img-and-caption {
+        flex-direction: column;
+    }
+}
+.prizes-caption {
+    width: 60vh;
+    text-align: left;
+}
+.prizes-caption-header{
+    height: 8vh;
+}
 .prizes-para {
     font-size: 1.5em;
     border-width: 10px;
     border-color: white;
+}
+.prizes-caption-img-sep {
+    width: 10vh;
+    height: 10vh;
 }
 .prizes-list {
     margin: auto;
@@ -31,4 +53,27 @@
 }
 .prizes-list b {
     color: #db35f1;
+}
+.react-slideshow-container {
+    width: 50vh;
+    margin: auto;
+    border: 20px solid #db35f1;
+}
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 50vh;
+    width: 50vh;
+}
+
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    max-width: 40vh;
+    border-radius: 5%;
+    text-align: center;
+    color:#ff00e0;
 }

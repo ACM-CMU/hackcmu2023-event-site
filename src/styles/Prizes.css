@@ -18,3 +18,17 @@
     width: 100%;
     height: auto;
 }
+.prizes-para {
+    font-size: 1.5em;
+    border-width: 10px;
+    border-color: white;
+}
+.prizes-list {
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+    font-size: 1.5em;
+}
+.prizes-list b {
+    color: #db35f1;
+}

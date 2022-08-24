@@ -67,8 +67,6 @@ const FaqPage = () => {
                 styles={ '../styles/Faq.css'}
                 config={config}
             />
-            
-            <div className="faq-footer"></div> {/* used to line up the scroll correctly */}
         </div>
     );
 

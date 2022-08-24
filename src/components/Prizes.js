@@ -7,8 +7,14 @@ const Prizes = () => {
             <div className="prizes-content">
                 <div className='prizes-header'></div>
                 <div className='prizes-title'>Prizes</div>
-                <div>Below is the prize pool for winners as well as potential prizes from the raffle.</div>
-                <div>There will be top three winners, a best gamification hack, and a whopping 25 individual raffle winners!</div>
+                <div className='prizes-caption'>
+                    <div className='prizes-para'>Below are the prizes in this year's prize pool! Prizes will be awarded to:</div>
+                    <ul className='prizes-list'>
+                        <li>Top three best hack winners</li>
+                        <li>Best "Gamification" hack (this year's theme)</li>
+                        <li>A whopping <b>25</b> individual raffle winners</li>
+                    </ul>  
+                </div>
                 <br></br>
                 <Grid
                     container

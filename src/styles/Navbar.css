@@ -184,3 +184,9 @@
   background: black;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 460px) {
+  .navbar {
+    visibility: hidden;
+  }
+}

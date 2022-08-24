@@ -82,7 +82,9 @@
   color: rgb(105, 225, 255);
 }
 .faq-row-wrapper {
-  padding: 5vh 20vh 10vh 20vh;
+  /* padding: 5vh 20vh 10vh 20vh; */
+  width: 80vw;
+  margin: auto;
   background-color: black !important;
   background-image: url("../images/stars.png");
 }
@@ -101,4 +103,20 @@
 
 .faq-row-wrapper {
   text-align: left;
+}
+@media only screen and (max-width: 460px) {
+  .faq-page .faq-title {
+    font-size: 4.5em;
+    margin-bottom: 3vh;
+  }
+  .faq-row-wrapper {
+    /* padding: 5vh 20vh 10vh 20vh; */
+    margin: auto;
+    background-color: black !important;
+    background-image: url("../images/stars.png");
+  }
+  .faq-body {
+    padding: 8vw;
+    border-radius: 25px;
+  }
 }

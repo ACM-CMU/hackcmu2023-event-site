@@ -48,6 +48,7 @@
   /* left: 2vh; */
   z-index: 10;
   width: 7em;
+  height: 1.4em;
   margin: 4vh auto;
   /* margin: auto; */
   border-radius: 2vh;
@@ -168,3 +169,16 @@
     width: 20em;
     z-index: 1;
 } */
+
+@media only screen and (max-width: 460px) {
+  .home-page {
+    height: 100vh;
+  }
+  .home-page-content {
+    position: relative;
+    left: 5vw;
+  }
+  .home-page-logo-pic {
+    width: 90vw !important;
+  }
+}

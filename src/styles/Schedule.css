@@ -101,3 +101,20 @@
   flex-basis: 60%;
   border-left: 3px solid white;
 }
+
+@media only screen and (max-width: 460px) {
+  .schedule-page .schedule-title {
+    font-size: 4.5em;
+  }
+  .legend {
+    margin: auto !important;
+  }
+  .legend-event p {
+    font-size: 1em;
+  }
+  .schedule-event {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+  }
+}

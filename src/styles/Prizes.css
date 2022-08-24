@@ -76,3 +76,36 @@
   text-align: center;
   color: #ff00e0;
 }
+
+@media only screen and (max-width: 460px) {
+  .prizes-page .prizes-title {
+    font-size: 4.5em;
+    margin-top: 10vh;
+  }
+  .prizes-caption {
+    width: 80vw;
+    margin: auto;
+  }
+  .prizes-para{ 
+    font-size: 1.3em;
+  }
+  .prizes-list {
+    font-size: 1.3em;
+  }
+  .prizes-img-and-caption {
+    margin: 0vh auto;
+  }
+  .prizes-page .prizes-caption-header {
+    height: 5vh;
+  }
+  .react-slideshow-container {
+    width: 70vw;
+    margin: auto;
+    border: 20px solid #db35f1;
+  }
+  .each-slide-effect > div {
+    background-size: cover;
+    height: 70vw;
+    width: 70vw;
+  }
+}

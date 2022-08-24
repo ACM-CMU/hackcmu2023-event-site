@@ -19,8 +19,12 @@
 .sponsors-level {
     font-family: 'Lexend', cursive;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2.5em;
     color:#766cdf;
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    border: 5px solid #b300ff;
 }
 .sponsors-page .sponsors-q-a-container {
     margin: 2vh auto;
@@ -39,7 +43,7 @@
     align-items: center;
     width: 80%;
     margin: 1rem auto; 
-    border-radius: 20px !important;
+    /* border-radius: 20px !important; */
 }
 
 .sponsors img:hover {
@@ -51,27 +55,29 @@
     
 .sponsors.sponsors-gold img {
     width: 100%; 
-    border-radius: 20px;
+    /* border-radius: 20px; */
+}
+
+.sponsors .rounded-sponsor-img img{
+    border-radius: 3vh;
 }
 
 .sponsors.sponsors-gold a {
-    width: 40%;
+    width: 40vh;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 2em;
-    min-width: 250px; 
 }
 
 .sponsors.sponsors-silver {
     margin-top: 2.5rem;
 }
 .sponsors.sponsors-silver img {
-    max-width: 70%;
+    width: 30vh;
 }
 .sponsors.sponsors-silver a {
     margin-left: 50px;
     margin-right: 50px;
-    width: 25%;
     min-width: 100px; 
 }
 
@@ -79,12 +85,10 @@
     margin-bottom: 0.5rem;
 }
 .sponsors.sponsors-bronze img {
-    width: auto;
-    height: 50px; 
+    width: 30vh;
 }
 .sponsors.sponsors-bronze a {
-    width: auto;
-    height: 50px;
+    width: 100vh;
     min-height: 100px;
     margin: 10px 10px; 
 }

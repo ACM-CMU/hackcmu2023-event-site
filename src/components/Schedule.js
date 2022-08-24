@@ -148,26 +148,20 @@ const Schedule = () => {
             <p class="legend-label">Workshop</p>
           </div>
         </div>
-        <div class="schedule-container">
-          <div class="schedule-header">
-            <button
-              class="schedule-day-button"
-              id="friday"
-              onClick={showFriday}
-            >
-              <span class="schedule-header-word">FRIDAY 9/16</span>
-            </button>
-            <button
-              class="schedule-day-button"
-              id="satuday"
-              onClick={showSaturday}
-            >
-              <span class="schedule-header-word">SATUDAY 9/17</span>
-            </button>
-          </div>
-          <div class="schedule" id="schedule">
-            {fridaySchedule()}
-          </div>
+        <div class="schedule-days">
+          <button class="schedule-day-button" id="friday" onClick={showFriday}>
+            <span class="schedule-header-word">FRIDAY 9/16</span>
+          </button>
+          <button
+            class="schedule-day-button"
+            id="satuday"
+            onClick={showSaturday}
+          >
+            <span class="schedule-header-word">SATUDAY 9/17</span>
+          </button>
+        </div>
+        <div class="schedule" id="schedule">
+          {fridaySchedule()}
         </div>
         <div className="container-after"></div>
       </div>

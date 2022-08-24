@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Mono&display=swap");
 
 * {
   /* font-family: "IBM Plex Mono"; */
-  
+
   /* variables */
   --navbar-height: max(8vh, 40px);
 
-   /* variables used for faq page*/
+  /* variables used for faq page*/
   --row-title-text-size: 1.2em;
   --row-content-color: white;
   --row-content-text-size: 1.2em;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 400;
 }
 
 .App {
   text-align: center;
+  background-color: black;
 }

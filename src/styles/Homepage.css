@@ -48,12 +48,14 @@
   /* left: 2vh; */
   z-index: 10;
   width: 7em;
-  height: 1.4em;
+  height: 1.7em;
+  line-height: 1.7em;
   margin: 4vh auto;
   /* margin: auto; */
   border-radius: 2vh;
   background-color: white;
   font-family: "Fredoka One", cursive;
+  vertical-align: middle;
 }
 
 

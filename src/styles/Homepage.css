@@ -177,8 +177,12 @@
   .home-page-content {
     position: relative;
     left: 5vw;
+    top: -10vw;
   }
   .home-page-logo-pic {
+    margin: auto;
     width: 90vw !important;
+    position: relative;
+    top: -10vw;
   }
 }

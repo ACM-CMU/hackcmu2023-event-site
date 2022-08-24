@@ -19,9 +19,10 @@
   font-size: 2.5em;
   color: #766cdf;
   background-color: white;
-  width: 70vw;
+  width: 65vw;
   margin: auto;
   border: 5px solid #b300ff;
+  border-radius: 30px;
 }
 .sponsors-page .sponsors-q-a-container {
   margin: 2vh auto;

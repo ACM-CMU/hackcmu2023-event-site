@@ -5,8 +5,30 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-content">
+                {/* <div className="navbar-circle-container">
+                    <div className="navbar-circle" id="navbar-circle-1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div> */}
                 <Link to="home-page" smooth={true}>
-                    <div className="navbar-logo">HackCMU logo (put up later)</div>                
+                    <div className="navbar-logo">
+                        <span>H</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>k</span>
+                        <span>C</span>
+                        <span>M</span>
+                        <span>U</span>
+                        <span> </span>
+                        <span>2</span>
+                        <span>0</span>
+                        <span>2</span>
+                        <span>2</span>
+                    </div>
+                    {/* <img className='navbar-logo' src="../../hackcmu-logo-black-short.png"></img>                 */}
                 </Link>
                 <div className="links-container">               
                     <Link to="home-page" smooth={true}>

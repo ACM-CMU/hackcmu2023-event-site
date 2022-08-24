@@ -11,6 +11,13 @@
   z-index: 4;
   position: relative;
 }
+.home-page .home-page-logo-pic {
+  width: 100vh;
+  z-index: 4;
+  position: relative;
+  top: 10vh;
+  left: -3vh;
+}
 
 .home-page .home-page-logo {
   font-family: "Fredoka One", cursive;
@@ -29,6 +36,26 @@
 	-webkit-animation: animated_home_logo 5s ease-in-out infinite;  */
   z-index: 4;
 }
+.home-page a {
+  text-decoration: none;
+}
+
+.sign-up-button {
+  color: #e100ff;
+  position: relative;
+  font-size: 1.5em;
+  /* top: -15vh; */
+  /* left: 2vh; */
+  z-index: 10;
+  width: 7em;
+  margin: 4vh auto;
+  /* margin: auto; */
+  border-radius: 2vh;
+  background-color: white;
+  font-family: "Fredoka One", cursive;
+}
+
+
 @keyframes animated_home_logo {
   0% {
     background-position: 0px 50%;
@@ -62,11 +89,6 @@
   align-items: center;
   position: relative;
   top: -4em;
-}
-@media only screen and (max-width: 985px) {
-  .home-page .home-page-circle-container {
-    top: -10em;
-  }
 }
 .home-page .home-page-circle {
   background-color: black;

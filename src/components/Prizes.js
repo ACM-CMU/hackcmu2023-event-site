@@ -18,7 +18,7 @@ const Prizes = () => {
         <div className="prizes-page">
             <div className="prizes-content">
                 <div className='prizes-header'></div>
-                <div className='prizes-title'>Prizes</div>
+                <div className='prizes-title'>prizes</div>
                 <div className='prizes-img-and-caption'>
                     <div className='prizes-caption'>
                         <div className='prizes-caption-header'></div>

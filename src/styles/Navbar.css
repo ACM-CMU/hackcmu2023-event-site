@@ -5,19 +5,66 @@
   z-index: 1000;
 }
 .navbar .navbar-logo {
-  margin-left: 3.5em;
-  color: white;
-  font-size: 1.5em;
+  font-family: "Fredoka One", cursive;
+  margin-left: 2em;
+  color: #ffffff;
+  font-size: 2em;
+  position: relative;
+  /* top: 1vh; */
+  height: 5vh;
+  /* width: 5vh; */
   cursor: pointer;
 }
-.navbar .navbar-logo:hover {
+/* #8200b6, #cc14ff, #ff00e0) */
+.navbar-logo span {
+  font-family: "Fredoka One", cursive; 
+} 
+/*
+.navbar-logo span:nth-child(1) {
+  color: rgb(199, 128, 199);
+}
+.navbar-logo span:nth-child(2) {
+  color: rgb(131, 131, 237);
+}
+.navbar-logo span:nth-child(3) {
+  color: #b600b6;
+}
+.navbar-logo span:nth-child(4) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(5) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(6) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(7) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(8) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(9) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(10) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(11) {
+  color: #e435fb;
+}
+.navbar-logo span:nth-child(12) {
+  color: #ff00e0;
+} */
+
+/* .navbar .navbar-logo:hover {
   background: -webkit-linear-gradient(#8200b6, #cc14ff, #ff00e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
-}
+} */
 
 @-webkit-keyframes glow {
   from {
@@ -52,4 +99,88 @@
 .navbar .links-container .link:hover {
   color: #db35f1;
   transform: rotate(-15deg);
+}
+
+
+.navbar-circle-container {
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 20px;
+  /* top: 50px; */
+  top: .5em;
+  margin-left: 3.5em;
+}
+/* @media only screen and (max-width: 985px) {
+  .navbar-circle-container {
+    top: -10em;
+  }
+} */
+.navbar-circle {
+  background-color: black;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+}
+#navbar-circle-1 {
+  height: 5vh;
+  width: 5vh;
+  display: center;
+  z-index: 3;
+  background: linear-gradient(#8200b6, #cc14ff, #ff00e0);
+  animation: glowing-circle-animation 5s linear infinite;
+  /* if you wanna make background nebula image*/
+  /* background: linear-gradient(#5b04de, #007ea8); */
+  /* background: black; */
+  /* background-image: url("../../public/nebula-purple.jpg"); */
+  /* background-repeat: repeat-x; */
+  /* animation: glowing-circle-animation 5s linear infinite; */
+}
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-3840px); /* The image width */
+  }
+}
+@keyframes glowing-circle-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#navbar-circle-1 span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--gradient-colors);
+}
+#navbar-circle-1 span:nth-child(1) {
+  filter: blur(5px);
+}
+#navbar-circle-1 span:nth-child(2) {
+  filter: blur(10px);
+}
+#navbar-circle-1 span:nth-child(3) {
+  filter: blur(25px);
+}
+#navbar-circle-1 span:nth-child(4) {
+  filter: blur(50px);
+}
+#navbar-circle-1:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  background: black;
+  border-radius: 50%;
 }

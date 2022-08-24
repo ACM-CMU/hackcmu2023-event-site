@@ -133,7 +133,7 @@ const Schedule = () => {
     <div className="schedule-page">
       <div className="schedule-content">
         <div className="schedule-header"></div>
-        <div className="schedule-title">SCHEDULE</div>
+        <div className="schedule-title">schedule</div>
         <div class="legend">
           <div class="legend-event">
             <div class="legend-box food"></div>

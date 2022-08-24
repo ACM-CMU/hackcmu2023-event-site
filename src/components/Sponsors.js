@@ -4,7 +4,7 @@ const Sponsors = () => {
     return (
         <div className="sponsors-page">
             <div className="sponsors-header"></div> {/* used to line up the scroll correctly */}
-            <div className='sponsors-title'>Sponsors</div>
+            <div className='sponsors-title'>sponsors</div>
             <div className='sponsors-level'>GOLD</div>
             <div className='sponsors sponsors-gold'>
                 <a href="https://www.microsoft.com/en-us/">

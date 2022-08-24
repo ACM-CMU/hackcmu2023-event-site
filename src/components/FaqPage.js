@@ -6,15 +6,15 @@ const FaqPage = () => {
     rows: [
       {
         title: "Q: What is HackCMU?",
-        content: `100000% best hackathon at CMU, no cap my homies!!!!! This is the absolute truth and only the truth!!`,
+        content: `HackCMU is a 24-hour event where students from across campus come together to make something awesome — like an app, website or hardware hack.`,
       },
       {
-        title: "Q: Where is HackCMU?",
-        content: `Probably in Gates, but idk! No details at this point yet! We will probably figure this out at some point broskis!`,
+        title: "Q: What is this year's theme?",
+        content: `This year's theme is "Gamification"! Students are encouraged to create hacks that incorporate game-playing into other activities. Gamification is exciting because it promises to make the hard stuff in life fun!`,
       },
       {
-        title: "Q: Why is HackCMU?",
-        content: `We want free stuff! You want free stuff! It all works out! Less gooo!!!`,
+        title: "Q: Where will HackCMU be held?",
+        content: `HackCMU will mostly place in Gates, but there are also designated hacking areas in Tepper!`,
       },
       {
         title: "Q: How much does this cost?",

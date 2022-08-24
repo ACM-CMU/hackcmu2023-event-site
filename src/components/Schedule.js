@@ -1,17 +1,178 @@
-import '../styles/Schedule.css'
+import ReactDOMServer from "react-dom/server";
+import "../styles/Schedule.css";
 
-const Schedule = () => { 
-    return (  
-        <div className="schedule-page">
-            <div className="schedule-content">
-                <div className='schedule-header'></div>
-                <div className='schedule-title'>SCHEDULE</div>
-                <div>(some fancy schedule component here)</div>
-                <div className='schedule-box'></div>
-                <div className = 'container-after'></div>
-            </div>
+const fridaySchedule = () => {
+  return (
+    <div>
+      <div class="schedule-event main-event">
+        <div class="col">
+          <p>4:30 - 6:00 PM</p>
         </div>
-    );
+        <div class="col">
+          <p>Check-in</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event">
+        <div class="col">
+          <p>6:00 - 6:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Opening Ceremony</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event food">
+        <div class="col">
+          <p>6:30 - 7:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Dinner</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event workshops">
+        <div class="col">
+          <p>7:30 - 8:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Workshop 1</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event workshops">
+        <div class="col">
+          <p>8:30 - 9:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Workshop 2</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event food">
+        <div class="col">
+          <p>11:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Midnight Snacks & Coffee</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const satudaySchedule = () => {
+  return (
+    <div>
+      <div class="schedule-event workshops">
+        <div class="col">
+          <p>11:00 - 12:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Y Combinator Workshop</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event food">
+        <div class="col">
+          <p>12:00 - 1:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Lunch</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event">
+        <div class="col">
+          <p>2:00 - 3:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Sponsor Fair</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event">
+        <div class="col">
+          <p>3:00 - 6:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Expo Setup</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event">
+        <div class="col">
+          <p>6:30 - 8:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Judging</p>
+          <p class="details">Location/Details</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+function showFriday() {
+  document.getElementById("friday").style.border = "3px solid white";
+  document.getElementById("satuday").style.border = "0px solid white";
+  document.getElementById("schedule").innerHTML =
+    ReactDOMServer.renderToStaticMarkup(fridaySchedule());
 }
- 
-export default Schedule;    
+
+function showSaturday() {
+  document.getElementById("friday").style.border = "0px solid white";
+  document.getElementById("satuday").style.border = "3px solid white";
+  document.getElementById("schedule").innerHTML =
+    ReactDOMServer.renderToStaticMarkup(satudaySchedule());
+}
+
+const Schedule = () => {
+  return (
+    <div className="schedule-page">
+      <div className="schedule-content">
+        <div className="schedule-header"></div>
+        <div className="schedule-title">SCHEDULE</div>
+        <div class="legend">
+          <div class="legend-event">
+            <div class="legend-box food"></div>
+            <p class="legend-label">Food</p>
+          </div>
+          <div class="legend-event">
+            <div class="legend-box main-event"></div>
+            <p class="legend-label">Main Event</p>
+          </div>
+          <div class="legend-event">
+            <div class="legend-box workshops"></div>
+            <p class="legend-label">Workshop</p>
+          </div>
+        </div>
+        <div class="schedule-container">
+          <div class="schedule-header">
+            <button
+              class="schedule-day-button"
+              id="friday"
+              onClick={showFriday}
+            >
+              <span class="schedule-header-word">FRIDAY 9/16</span>
+            </button>
+            <button
+              class="schedule-day-button"
+              id="satuday"
+              onClick={showSaturday}
+            >
+              <span class="schedule-header-word">SATUDAY 9/17</span>
+            </button>
+          </div>
+          <div class="schedule" id="schedule">
+            {fridaySchedule()}
+          </div>
+        </div>
+        <div className="container-after"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Schedule;

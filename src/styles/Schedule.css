@@ -1,84 +1,160 @@
 .schedule-page {
-    height: 200vh;
-    background-color: black;
-    color: white;
+  height: 155vh;
+  background-color: black;
+  color: white;
 }
 .schedule-page .schedule-content {
-    height: 100%;
-    color: white;
+  height: 100%;
+  color: white;
 }
 .schedule-page .schedule-header {
-    height: 5vh;
+  height: 15vh;
 }
 .schedule-page .schedule-title {
-    font-family: 'Fredoka One', cursive;
-    font-size: 5em;
-    letter-spacing: 3px;
-    color: #db35f1;
-    /* background: -webkit-linear-gradient(#8200b6, #cc14ff,#ff00e0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+  font-family: "Fredoka One", cursive;
+  font-size: 5em;
+  letter-spacing: 3px;
+  color: #db35f1;
 }
-.schedule-page .schedule-box {
-    height: 80%;
-    margin: 5vh auto;
-    width: 15px;
-    border-radius: 10px;
-    background-color: #db35f1;
-}
-.schedule-page .container:after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: #db35f1;
-    border: 14px solid #db35f1;
-    top: 25px;
-    border-radius: 50%;
-    z-index: 1;
-  }
 
-  /* Place the container to the left */
+.legend {
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.legend-event {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+.legend-box {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+}
+.legend-label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.main-event {
+  background-color: rgb(131, 131, 237);
+}
+.workshops {
+  background-color: rgb(128, 156, 199);
+}
+.food {
+  background-color: rgb(199, 128, 199);
+}
+
+.schedule-day-button {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.75rem;
+  font-weight: 900;
+  background: rgb(101, 47, 196);
+  cursor: pointer;
+  color: white;
+  border: 0px solid white;
+  text-align: center;
+  margin: 20px;
+}
+#friday {
+  border: 3px solid white;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.schedule-event {
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 700;
+  min-height: 60px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+.schedule-event .col p {
+  padding-top: 0px;
+  margin: 0px;
+}
+.schedule-event .details {
+  color: black;
+}
+.schedule-event .col {
+  flex-basis: 40%;
+}
+.schedule-event .col:last-child {
+  flex-basis: 60%;
+  border-left: 3px solid white;
+}
+
+.schedule-page .container:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #db35f1;
+  border: 14px solid #db35f1;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
 .schedule-page .left {
-    left: 0;
-  }
-  
-  /* Place the container to the right */
+  left: 0;
+}
+
+/* Place the container to the right */
 .schedule-page .right {
-    left: 50%;
-  }
-  
-  /* Add arrows to the left container (pointing right) */
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
 .schedule-page .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-  }
-  
-  /* Add arrows to the right container (pointing left) */
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
 .schedule-page .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-  
-  /* Fix the circle for containers on the right side */
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
 .schedule-page .right::after {
-    left: -16px;
-  }
-  
+  left: -16px;
+}

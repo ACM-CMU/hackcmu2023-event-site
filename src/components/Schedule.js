@@ -62,7 +62,7 @@ const fridaySchedule = () => {
   );
 };
 
-const satudaySchedule = () => {
+const saturdaySchedule = () => {
   return (
     <div>
       <div class="schedule-event workshops">
@@ -116,16 +116,16 @@ const satudaySchedule = () => {
 
 function showFriday() {
   document.getElementById("friday").style.border = "3px solid white";
-  document.getElementById("satuday").style.border = "0px solid white";
+  document.getElementById("saturday").style.border = "0px solid white";
   document.getElementById("schedule").innerHTML =
     ReactDOMServer.renderToStaticMarkup(fridaySchedule());
 }
 
 function showSaturday() {
   document.getElementById("friday").style.border = "0px solid white";
-  document.getElementById("satuday").style.border = "3px solid white";
+  document.getElementById("saturday").style.border = "3px solid white";
   document.getElementById("schedule").innerHTML =
-    ReactDOMServer.renderToStaticMarkup(satudaySchedule());
+    ReactDOMServer.renderToStaticMarkup(saturdaySchedule());
 }
 
 const Schedule = () => {
@@ -154,10 +154,10 @@ const Schedule = () => {
           </button>
           <button
             class="schedule-day-button"
-            id="satuday"
+            id="saturday"
             onClick={showSaturday}
           >
-            <span class="schedule-header-word">SATUDAY 9/17</span>
+            <span class="schedule-header-word">SATURDAY 9/17</span>
           </button>
         </div>
         <div class="schedule" id="schedule">

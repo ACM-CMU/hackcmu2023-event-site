@@ -1,3 +1,6 @@
+.faq-page * {
+  overflow-x: visible !important;
+}
 .faq-page .faq-content {
   height: 100%;
 }

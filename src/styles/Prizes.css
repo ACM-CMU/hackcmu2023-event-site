@@ -2,6 +2,9 @@
   height: 100vh;
   color: white;
 }
+.prizes-page * {
+  overflow-x: visible !important;
+}
 .prizes-page .prizes-content {
   height: 100%;
 }

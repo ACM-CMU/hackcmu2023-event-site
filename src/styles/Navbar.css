@@ -4,6 +4,9 @@
   position: sticky;
   z-index: 1000;
 }
+.navbar * {
+  overflow-x: visible !important;
+}
 .navbar .navbar-logo {
   font-family: "Fredoka One", cursive;
   margin-left: 2em;
@@ -188,5 +191,9 @@
 @media only screen and (max-width: 460px) {
   .navbar {
     visibility: hidden;
+    width: 0px;
+  }
+  body * {
+    overflow-x: hidden;
   }
 }

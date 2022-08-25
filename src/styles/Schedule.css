@@ -2,6 +2,9 @@
   color: white;
   margin-bottom: 60px;
 }
+.schedule-page * {
+  overflow-x: visible !important;
+}
 .schedule-page .schedule-content {
   height: 100%;
   color: white;

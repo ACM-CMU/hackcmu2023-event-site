@@ -1,3 +1,6 @@
+.sponsors-page * {
+  overflow-x: visible !important;
+}
 .sponsors-page .sponsors-content {
   height: 100%;
 }

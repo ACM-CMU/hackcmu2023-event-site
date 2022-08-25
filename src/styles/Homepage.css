@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+.home-page * {
+  overflow-x: visible !important;
+}
 .home-page .home-page-caption {
   color: white;
   z-index: 4;

@@ -3,7 +3,7 @@
   color: white;
 }
 .prizes-page * {
-  overflow-x: visible !important;
+  overflow-x: hidden !important;
 }
 .prizes-page .prizes-content {
   height: 100%;

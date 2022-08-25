@@ -26,6 +26,7 @@
   margin: auto;
   border: 5px solid #b300ff;
   border-radius: 30px;
+  margin-bottom: 5vh;
 }
 .sponsors-page .sponsors-q-a-container {
   margin: 2vh auto;
@@ -54,6 +55,19 @@
   transform: scale(1.05);
 }
 
+.sponsors.sponsors-platinum img {
+  width: 100%;
+  /* border-radius: 20px; */
+}
+
+.sponsors.sponsors-platinum a {
+  width: 40vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 2em;
+}
+
+
 .sponsors.sponsors-gold img {
   width: 100%;
   /* border-radius: 20px; */
@@ -61,6 +75,10 @@
 
 .sponsors .rounded-sponsor-img img {
   border-radius: 3vh;
+}
+
+.sponsors .hrt-logo {
+  width: 30vh !important;
 }
 
 .sponsors.sponsors-gold a {
@@ -79,6 +97,7 @@
 .sponsors.sponsors-silver a {
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 2em;
   min-width: 100px;
 }
 
@@ -99,4 +118,7 @@
     font-size: 4.5em;
     margin-top: 5vh;
   }
+  .sponsors .hrt-logo {
+    width: 40vw !important;
+  }  
 }

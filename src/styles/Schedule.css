@@ -63,7 +63,7 @@
   border-radius: 10px;
   font-size: 1.75rem;
   font-weight: 900;
-  background: rgb(101, 47, 196);
+  background: #801ca4;
   cursor: pointer;
   color: white;
   border: 0px solid white;
@@ -91,8 +91,7 @@
   align-items: center;
 }
 .schedule-event .col p {
-  padding-top: 0px;
-  margin: 0px;
+  margin: 0px 8px;
 }
 .schedule-event .details {
   color: black;

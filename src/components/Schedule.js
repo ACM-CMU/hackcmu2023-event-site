@@ -65,12 +65,12 @@ const fridaySchedule = () => {
 const saturdaySchedule = () => {
   return (
     <div>
-      <div class="schedule-event workshops">
+      <div class="schedule-event food">
         <div class="col">
-          <p>11:00 - 12:00 PM</p>
+          <p>9:00 - 10:00 AM</p>
         </div>
         <div class="col">
-          <p>Y Combinator Workshop</p>
+          <p>Breakfast</p>
           <p class="details">Location/Details</p>
         </div>
       </div>

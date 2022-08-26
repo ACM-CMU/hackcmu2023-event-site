@@ -60,7 +60,7 @@ const Navbar = () => {
                 <Link to="home-page" smooth={true}>
                     <div onClick={() => setMenuOpen(false)} className="link">Home</div>
                 </Link>
-                <Link to="schedule-page" smooth={true} offset={-0.02*window.innerHeight}> 
+                <Link to="schedule-page" smooth={true} offset={-0.04*window.innerHeight}> 
                     <div onClick={() => setMenuOpen(false)} className="link">Schedule</div>
                 </Link>
                 <Link to="faq-page" smooth={true} offset={-0.02*window.innerHeight}>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <Link to="prizes-page" smooth={true} offset={-0.02*window.innerHeight}>
                     <div onClick={() => setMenuOpen(false)} className="link">Prizes</div>
                 </Link>
-                <Link to="sponsors-page" smooth={true} offset={-0.02*window.innerHeight}>
+                <Link to="sponsors-page" smooth={true} offset={-0.04*window.innerHeight}>
                     <div onClick={() => setMenuOpen(false)} className="link">Sponsors</div>
                 </Link>
             </Menu>

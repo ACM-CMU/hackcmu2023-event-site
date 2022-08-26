@@ -13,6 +13,10 @@ const FaqPage = () => {
         content: `This year's theme is "Gamification"! Students are encouraged to create hacks that incorporate game-playing into other activities. Gamification is exciting because it promises to make the hard stuff in life fun!`,
       },
       {
+        title: "Q: Should I sign up as a participant or mentor?",
+        content: `Mentors are more experienced hackers who will assist the participants in creating their projects, instead of participating themselves! Mentors will be responsible for holding office hours and helping assigned groups. As a reward, they will receive additional goodies (like gift cards and swag bags), and they will also be eligible for the "coolest mentor" award!`,
+      },
+      {
         title: "Q: Where will HackCMU be held?",
         content: `HackCMU will mostly place in Gates, but there are also designated hacking areas in Tepper!`,
       },
@@ -64,6 +68,7 @@ const FaqPage = () => {
       <div className="faq-content">
         <Faq data={data} styles={"../styles/Faq.css"} config={config} />
       </div>
+      <div className="faq-footer"></div>
     </div>
   );
 };

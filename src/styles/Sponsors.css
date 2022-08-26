@@ -16,17 +16,35 @@
   color: #db35f1;
   padding-bottom: 15px;
 }
+.sponsors-container {
+  width: 76vw;
+  margin: auto;
+  border: 5px solid #db35f1;
+  border-radius: 30px;
+}
+#plat-sponsors-container {
+  background-color: #E5E4E2;
+}
+#gold-sponsors-container {
+  background-color: #e0c56e;
+}
+#silver-sponsors-container {
+  background-color: #C0C0C0;
+}
+#bronze-sponsors-container {
+  background-color: #E3AF66;
+}
+
 .sponsors-level {
   font-family: "Lexend", cursive;
   font-weight: 600;
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: #766cdf;
-  background-color: white;
   width: 65vw;
-  margin: auto;
-  border: 5px solid #b300ff;
-  border-radius: 30px;
-  margin-bottom: 5vh;
+  margin: 1vh auto 4vh auto;
+  /* border: 5px solid #b300ff; */
+  /* border-radius: 30px;
+  margin-bottom: 5vh; */
 }
 .sponsors-page .sponsors-q-a-container {
   margin: 2vh auto;
@@ -69,7 +87,7 @@
 
 
 .sponsors.sponsors-gold img {
-  width: 100%;
+  width: 30vh;
   /* border-radius: 20px; */
 }
 
@@ -83,8 +101,8 @@
 
 .sponsors.sponsors-gold a {
   width: 40vh;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 2em;
 }
 
@@ -98,7 +116,6 @@
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 2em;
-  min-width: 100px;
 }
 
 .sponsors.sponsors-bronze {
@@ -116,9 +133,19 @@
 @media only screen and (max-width: 460px) {
   .sponsors-page .sponsors-title {
     font-size: 4.5em;
-    margin-top: 5vh;
+  }
+  .sponsors-level {
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: auto;
+  }
+  .sponsors img {
+    width: 50vw !important;
   }
   .sponsors .hrt-logo {
-    width: 40vw !important;
+    width: 45vw !important;
+    /* margin-left: 0px !important; */
+    margin-left: auto !important;
+    margin-right: auto !important ;
   }  
 }

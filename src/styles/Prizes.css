@@ -57,9 +57,14 @@
   color: #db35f1;
 }
 .react-slideshow-container {
-  width: 50vh;
+  width: 53vh;
   margin: auto;
-  border: 20px solid #db35f1;
+  background-color: #db35f1;
+  border: 13px solid #db35f1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 .each-slide-effect > div {
   display: flex;
@@ -72,18 +77,18 @@
 
 .each-slide-effect span {
   padding: 20px;
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: bold;
   max-width: 40vh;
   border-radius: 5%;
   text-align: center;
+  margin-top: 60%;
   color: #ff00e0;
 }
 
 @media only screen and (max-width: 460px) {
   .prizes-page .prizes-title {
     font-size: 4.5em;
-    margin-top: 10vh;
   }
   .prizes-caption {
     width: 80vw;
@@ -103,12 +108,18 @@
   }
   .react-slideshow-container {
     width: 70vw;
+    /* height: 70vw; */
     margin: auto;
     border: 20px solid #db35f1;
   }
   .each-slide-effect > div {
     background-size: cover;
-    height: 70vw;
-    width: 70vw;
+    border-radius: 10px;
+    height: 60vw;
+    width: 60vw;
+  }
+  .each-slide-effect span {
+    font-size: 1.2em;
+    margin-top: 50%;
   }
 }

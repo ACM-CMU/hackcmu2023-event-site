@@ -47,11 +47,15 @@
   width: 10vh;
   height: 10vh;
 }
+
 .prizes-list {
   margin: auto;
   width: fit-content;
   text-align: left;
   font-size: 1.5em;
+}
+.prizes-list li {
+  margin: 7px auto;
 }
 .prizes-list b {
   color: #db35f1;
@@ -94,7 +98,7 @@
     width: 80vw;
     margin: auto;
   }
-  .prizes-para{ 
+  .prizes-para {
     font-size: 1.3em;
   }
   .prizes-list {

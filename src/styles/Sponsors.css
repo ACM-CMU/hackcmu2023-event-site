@@ -22,17 +22,20 @@
   border: 5px solid #db35f1;
   border-radius: 30px;
 }
+.sponsors-page:last-child {
+  margin-bottom: 2em;
+}
 #plat-sponsors-container {
-  background-color: #E5E4E2;
+  background-color: #e5e4e2;
 }
 #gold-sponsors-container {
   background-color: #e0c56e;
 }
 #silver-sponsors-container {
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
 }
 #bronze-sponsors-container {
-  background-color: #E3AF66;
+  background-color: #e3af66;
 }
 
 .sponsors-level {
@@ -84,7 +87,6 @@
   margin-right: 50px;
   margin-bottom: 2em;
 }
-
 
 .sponsors.sponsors-gold img {
   width: 30vh;
@@ -147,5 +149,5 @@
     /* margin-left: 0px !important; */
     margin-left: auto !important;
     margin-right: auto !important ;
-  }  
+  }
 }

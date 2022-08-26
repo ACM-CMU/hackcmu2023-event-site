@@ -18,11 +18,18 @@ const Homepage = () => {
                 </div> */}
                 <img className="home-page-logo-pic" src="../../hackcmu-logo-black-short.png">
                 </img>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <div className="sign-up-button">
-                        Sign up now!
-                    </div>
-                </a>
+                <div className="home-page-sign-up-links">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiA-v8H8oi1hh772syQN3LFGJcmjPdB0UWXkf2PDzYFFbn_A/viewform">
+                        <div className="sign-up-button" id="participant-button">
+                            Sign up as participant
+                        </div>
+                    </a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScX-NCAK0L8a-TkTIvY25MYoZCe_gnEyYbWbCpebXs7MgHIKA/viewform">
+                        <div className="sign-up-button" id="mentor-button">
+                            Sign up as mentor
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     );

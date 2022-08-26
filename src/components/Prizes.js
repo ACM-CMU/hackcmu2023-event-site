@@ -49,7 +49,7 @@ const Prizes = () => {
                         </div>
                         <div className="each-slide-effect">
                             <div style={{ 'backgroundImage': `url(${images[3]})` }}>
-                                <span>Portable Charger</span>
+                                <span>Portable Charger (raffle)</span>
                             </div>
                         </div>
                         <div className="each-slide-effect">

@@ -13,6 +13,7 @@ const Prizes = () => {
     "../../imgs/turtle.jpg",
     "../../imgs/pinkbluenarwhal.jpg",
     "../../imgs/blackwhitenarwhal.jpg",
+    "../../imgs/spikeball.png",
   ];
   return (
     <div className="prizes-page">
@@ -45,6 +46,11 @@ const Prizes = () => {
             <div className="each-slide-effect">
               <div style={{ backgroundImage: `url(${images[1]})` }}>
                 <span>LEGO Infinity Gauntlet</span>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ backgroundImage: `url(${images[9]})` }}>
+                <span>Spikeball Set</span>
               </div>
             </div>
             <div className="each-slide-effect">

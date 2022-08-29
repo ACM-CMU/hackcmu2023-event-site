@@ -27,10 +27,10 @@ const Sponsors = () => {
                         <img src="../../bloomberg-logo-blue.png" alt="sponsors"/>
                         </a>
                     <a className="rounded-sponsor-img" href="https://www.janestreet.com/">
-                        <img src="../../janestreet-cropped.png" alt="sponsors"/>
+                        <img src="../../janestreet-logo.png" alt="sponsors"/>
                         </a>
                     <a className="rounded-sponsor-img" href="https://www.aptiv.com">
-                        <img src="../../aptiv-cropped.png" alt="sponsors"/>
+                        <img src="../../aptiv-logo.png" alt="sponsors"/>
                         </a>
                     <a href="https://about.facebook.com/">
                         <img src="../../meta-logo.png" alt="sponsors"/>

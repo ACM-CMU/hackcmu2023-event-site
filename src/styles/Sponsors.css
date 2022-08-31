@@ -62,7 +62,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 70vw;
   margin: 1rem auto;
   /* border-radius: 20px !important; */
 }
@@ -126,7 +126,7 @@
 }
 .sponsors.sponsors-bronze a {
   width: 100vh;
-  min-height: 100px;
+  /* min-height: 100px; */
   margin: 10px 10px;
 }
 

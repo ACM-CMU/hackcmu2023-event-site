@@ -16,7 +16,7 @@ const Homepage = () => {
                         <span></span>
                     </div>
                 </div> */}
-                <img className="home-page-logo-pic" src="../../hackcmu-logo-black-short.png">
+                <img className="home-page-logo-pic" src="../../hackcmu.png">
                 </img>
                 <div className="home-page-sign-up-links">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiA-v8H8oi1hh772syQN3LFGJcmjPdB0UWXkf2PDzYFFbn_A/viewform">

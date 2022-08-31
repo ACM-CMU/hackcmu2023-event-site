@@ -140,10 +140,11 @@
     margin: auto;
   }
   .sponsors img {
-    width: 50vw !important;
+    height: auto;
+    max-width: auto !important;
   }
   .sponsors .hrt-logo {
-    width: 45vw !important;
+    max-width: auto !important;
     /* margin-left: 0px !important; */
     margin-left: auto !important;
     margin-right: auto !important ;

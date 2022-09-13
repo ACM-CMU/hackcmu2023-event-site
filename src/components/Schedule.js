@@ -112,22 +112,22 @@ const saturdaySchedule = () => {
           <p class="details">Simmons A & B</p>
         </div>
       </div>
-      <div class="schedule-event food">
-        <div class="col">
-          <p>5:30 - 6:30 PM</p>
-        </div>
-        <div class="col">
-          <p>Dinner - 98K Hamburger</p>
-          <p class="details">Reddy Conference Room</p>
-        </div>
-      </div>
       <div class="schedule-event main-event">
         <div class="col">
-          <p>6:30 - 8:30 PM</p>
+          <p>6:30 - 7:30 PM</p>
         </div>
         <div class="col">
           <p>Judging</p>
           <p class="details">Simmons A & B</p>
+        </div>
+      </div>
+      <div class="schedule-event food">
+        <div class="col">
+          <p>7:30 - 8:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Dinner - 98K Hamburger</p>
+          <p class="details">Reddy Conference Room</p>
         </div>
       </div>
       <div class="schedule-event main-event">

@@ -28,7 +28,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Dinner - Bull River Tacos (Taco Truck)</p>
-          <p class="details">Reddy Conference Room</p>
+          <p class="details">Outside NSH</p>
         </div>
       </div>
       <div class="schedule-event workshops">

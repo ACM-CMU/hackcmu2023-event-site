@@ -33,7 +33,7 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event workshops">
         <div class="col">
-          <p>7:30 - 8:30 PM</p>
+          <p>8:00 - 8:30 PM</p>
         </div>
         <div class="col">
           <p>Workshop 1</p>
@@ -43,7 +43,7 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event workshops">
         <div class="col">
-          <p>8:30 - 9:30 PM</p>
+          <p>8:45 - 9:30 PM</p>
         </div>
         <div class="col">
           <p>Workshop 2</p>

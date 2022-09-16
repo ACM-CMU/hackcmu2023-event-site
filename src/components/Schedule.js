@@ -6,7 +6,7 @@ const fridaySchedule = () => {
     <div>
       <div class="schedule-event main-event">
         <div class="col">
-          <p>5:00 - 6:00 PM</p>
+          <p>5:30 - 6:00 PM</p>
         </div>
         <div class="col">
           <p>Check-in</p>
@@ -27,7 +27,7 @@ const fridaySchedule = () => {
           <p>6:30 - 7:30 PM</p>
         </div>
         <div class="col">
-          <p>Dinner - Condados Tacos</p>
+          <p>Dinner - Bull River Tacos (Taco Truck)</p>
           <p class="details">Reddy Conference Room</p>
         </div>
       </div>
@@ -60,15 +60,6 @@ const fridaySchedule = () => {
           <p class="details">Gates La Prima</p>
         </div>
       </div>
-      <div class="schedule-event main-event">
-        <div class="col">
-          <p>11:59 PM</p>
-        </div>
-        <div class="col">
-          <p>PAINT THE FENCE</p>
-          <p class="details">The Fence</p>
-        </div>
-      </div>
     </div>
   );
 };
@@ -96,7 +87,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event">
         <div class="col">
-          <p>2:00 - 3:30 PM</p>
+          <p>2:00 - 3:00 PM</p>
         </div>
         <div class="col">
           <p>Sponsor Fair & BOBA</p>
@@ -105,7 +96,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event">
         <div class="col">
-          <p>3:30 - 6:30 PM</p>
+          <p>3:30 - 5:45 PM</p>
         </div>
         <div class="col">
           <p>Expo Setup</p>
@@ -114,7 +105,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event">
         <div class="col">
-          <p>6:30 - 7:30 PM</p>
+          <p>6:00 - 7:30 PM</p>
         </div>
         <div class="col">
           <p>Judging</p>

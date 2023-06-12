@@ -45,5 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://ACM-CMU.github.io/hackcmu2022-event-site"
+  "homepage": "http://ACM-CMU.github.io/hackcmu2022-event-site",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }

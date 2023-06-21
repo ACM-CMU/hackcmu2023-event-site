@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hackcmu2022-event-site/static/css/main.9111af2e.css",
+    "main.js": "/hackcmu2022-event-site/static/js/main.dd7cf39a.js",
+    "static/js/787.a599a545.chunk.js": "/hackcmu2022-event-site/static/js/787.a599a545.chunk.js",
+    "static/media/stars.png": "/hackcmu2022-event-site/static/media/stars.be2a83a1945ce5ae3c1a.png",
+    "static/media/BaksoSapi.otf": "/hackcmu2022-event-site/static/media/BaksoSapi.cceb2bbde22cd3a98fc6.otf",
+    "index.html": "/hackcmu2022-event-site/index.html",
+    "main.9111af2e.css.map": "/hackcmu2022-event-site/static/css/main.9111af2e.css.map",
+    "main.dd7cf39a.js.map": "/hackcmu2022-event-site/static/js/main.dd7cf39a.js.map",
+    "787.a599a545.chunk.js.map": "/hackcmu2022-event-site/static/js/787.a599a545.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9111af2e.css",
+    "static/js/main.dd7cf39a.js"
+  ]
+}

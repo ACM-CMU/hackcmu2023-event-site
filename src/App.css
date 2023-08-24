@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 * {
   /* font-family: "IBM Plex Mono"; */
@@ -10,7 +10,7 @@
   --row-title-text-size: 1.2em;
   --row-content-color: white;
   --row-content-text-size: 1.2em;
-  font-family: "Lexend", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
 }
 

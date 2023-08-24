@@ -13,10 +13,10 @@
   height: 5vh;
 }
 .schedule-page .schedule-title {
-  font-family: "Fredoka One", cursive;
+  font-family: "Roboto Mono", monospace;
   font-size: 5em;
   letter-spacing: 3px;
-  color: #db35f1;
+  color: #ffffff;
 }
 
 .legend {
@@ -49,13 +49,13 @@
 }
 
 .main-event {
-  background-color: rgb(131, 131, 237);
+  background-color: #244ec1;
 }
 .workshops {
-  background-color: rgb(128, 156, 199);
+  background-color: #475e98;
 }
 .food {
-  background-color: rgb(199, 128, 199);
+  background-color: #a1abc8;
 }
 
 .schedule-day-button {
@@ -63,7 +63,7 @@
   border-radius: 10px;
   font-size: 1.75rem;
   font-weight: 900;
-  background: #801ca4;
+  background: #ca6b12;
   cursor: pointer;
   color: white;
   border: 0px solid white;

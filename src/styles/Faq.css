@@ -11,7 +11,7 @@
   height: 10vh;
 }
 .faq-page .faq-title {
-  font-family: "Fredoka One", cursive;
+  font-family: "Roboto Mono", monospace;
   font-size: 5em;
   color: #db35f1;
   margin-bottom: 3vh;
@@ -40,7 +40,7 @@
 }
 
 .row-title-text {
-  font-family: "Lexend", sans-serif;
+  font-family: "Roboto Mono", monospace;
   background-image: linear-gradient(
     45deg,
     rgb(131, 131, 237),

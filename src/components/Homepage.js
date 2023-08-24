@@ -1,5 +1,6 @@
 import '../styles/Homepage.css'
-
+import hero from '../images/hero.png'
+import hackcmu from '../images/hackcmu.png'
 const Homepage = () => { 
     return (  
         <div className="home-page">
@@ -16,15 +17,22 @@ const Homepage = () => {
                         <span></span>
                     </div>
                 </div> */}
-                <img className="home-page-logo-pic" src="../../hackcmu.png">
-                </img>
+                <div class="section" id="home">
+                    <div id="star-container">
+                        <div id='stars'></div>
+                        <div id='stars2'></div>
+                        <div id='stars3'></div>
+                    </div>
+                    
+                </div>
+                <img class="home-page-logo-pic" src={hero}  alt="hero" width="30%" />
                 <div className="home-page-sign-up-links">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiA-v8H8oi1hh772syQN3LFGJcmjPdB0UWXkf2PDzYFFbn_A/viewform">
+                    <a href="https://cmu.ca1.qualtrics.com/jfe/form/SV_2nrluKEiu0VOgLA?">
                         <div className="sign-up-button" id="participant-button">
                             Sign up as participant
                         </div>
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScX-NCAK0L8a-TkTIvY25MYoZCe_gnEyYbWbCpebXs7MgHIKA/viewform">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScply9xc9dBY4Nqe4Sx8vLzkcKPFS8G3DqzRQ1CARIszV6sLw/viewformIvY25MYoZCe_gnEyYbWbCpebXs7MgHIKA/viewform">
                         <div className="sign-up-button" id="mentor-button">
                             Sign up as mentor
                         </div>

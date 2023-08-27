@@ -12,7 +12,7 @@
   height: 20vh;
 }
 .sponsors-page .sponsors-title {
-  font-family: "Fredoka One", cursive;
+  font-family: "Roboto Mono", monospace;
   font-size: 5em;
   color: #475e98;
   padding-bottom: 15px;
@@ -37,7 +37,7 @@
 }
 
 .sponsors-level {
-  font-family: "Lexend", cursive;
+  font-family: "Roboto Mono", monospace;
   font-weight: 600;
   font-size: 3.5em;
   color: white;

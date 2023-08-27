@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Schedule from './components/Schedule';
 import FaqPage from './components/FaqPage';
 import Prizes from './components/Prizes';
+import Team from './components/Team';
 import Sponsors from './components/Sponsors';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Schedule/>
       <FaqPage/>
       <Prizes/>
+      <Team/>
       <Sponsors/>
     </div>
   );

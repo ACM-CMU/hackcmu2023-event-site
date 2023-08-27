@@ -1,6 +1,5 @@
 import '../styles/Homepage.css'
 import hero from '../images/hero.png'
-import hackcmu from '../images/hackcmu.png'
 const Homepage = () => { 
     return (  
         <div className="home-page">

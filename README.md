@@ -1,11 +1,11 @@
-# HackCMU 2022 Event Website 
+# HackCMU 2023 Event Website 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Ensure git and npm are installed on your computer. 
 
 ## Running the website
 Clone the directory onto your computer and ```cd``` into the project directory :
 ```
 git clone [...link here...]
-cd hackcmu2022-event-site
+cd hackcmu2023-event-site
 ```
 
 To install Node.js and npm, go [here](https://nodejs.org/en/download/)

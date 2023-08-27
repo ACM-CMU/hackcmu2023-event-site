@@ -1,6 +1,19 @@
 import "../styles/Prizes.css";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
+import bluemech from '../images/prizes/blue-mech.jpg';
+import telescope from '../images/prizes/telescope.jpg';
+import starprojector from '../images/prizes/star-projector.jpg';
+import spikeball from '../images/prizes/spikeball-set.jpg';
+import skullcandy from '../images/prizes/skullcandy-earbuds.jpg';
+import projector from '../images/prizes/projector.jpg';
+import pinkblue from '../images/prizes/pink-blue.jpg';
+import navywhite from '../images/prizes/navywhite.jpg';
+import mouse from '../images/prizes/mouse.jpg';
+import ledlight from '../images/prizes/led-light.jpg';
+import isslegoset from '../images/prizes/iss-lego-set.jpeg';
+import echodot from '../images/prizes/echo-dot.jpg';
+import bobaplush from '../images/prizes/boba-plush.jpg';
 
 const Prizes = () => {
   const images = [
@@ -30,63 +43,65 @@ const Prizes = () => {
             <br></br>
             <ul className="prizes-list">
               <li>• Top three best hack winners</li>
-              <li>• Best "Gamification" hack (this year's theme)</li>
+              <li>• Best "Space" hack (this year's theme)</li>
               <li>
-                • A whopping <b>25</b> individual raffle winners
+                • A whopping <b>24</b> individual raffle winners
               </li>
             </ul>
           </div>
           <div className="prizes-caption-img-sep"></div>
           <Slide>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[0]})` }}>
-                <span>Mechanical Keyboard</span>
-              </div>
+              <img  className="prizes-img-and-caption" src={telescope} alt="telescope" />
+              Telescope
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[1]})` }}>
-                <span>LEGO Infinity Gauntlet</span>
-              </div>
+            <img  className="prizes-img-and-caption" src={starprojector}  alt="star projector" />
+              Star Projector
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[9]})` }}>
-                <span>Spikeball Set</span>
-              </div>
+            <img  className="prizes-img-and-caption" src={spikeball}  alt="spikeball set" />
+              Spikeball Set
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[2]})` }}>
-                <span>Echo Dot (4th Gen)</span>
-              </div>
+              <img className="prizes-img-and-caption" src={skullcandy}  alt="skullcandy earbuds" />
+              Skullcandy Earbuds
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[3]})` }}>
-                <span>Portable Charger (raffle)</span>
-              </div>
+              <img className="prizes-img-and-caption" src ={projector}  alt="projector" />
+              Projector
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[4]})` }}>
-                <span>Reversible Octopus Plush - Pink/Blue (raffle)</span>
-              </div>
+              <img className="prizes-img-and-caption" src={pinkblue}  alt="pink and blue octopus plush" />
+              Pink and Blue Octopus Plush
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[5]})` }}>
-                <span>Reversible Octopus Plush - Gray/Blue (raffle)</span>
-              </div>
+              <img className="prizes-img-and-caption" src={navywhite}  alt="navy and white octopus plush" />
+              Navy and White Octopus Plush
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[6]})` }}>
-                <span> Reversible Turtle Plush (raffle)</span>
-              </div>
+              <img className="prizes-img-and-caption"  src={mouse}  alt="mouse" />
+              Mouse
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[7]})` }}>
-                <span>Reversible Narwhal Plush - Pink/Blue (raffle)</span>
-              </div>
+              <img className="prizes-img-and-caption" src={ledlight}  alt="led light" />
+              LED Light
             </div>
             <div className="each-slide-effect">
-              <div style={{ backgroundImage: `url(${images[8]})` }}>
-                <span>Reversible Narwhal Plush - Black/White (raffle)</span>
-              </div>
+              <img className="prizes-img-and-caption" src={isslegoset}  alt="iss lego set" />
+              ISS Lego Set
+            </div>
+            <div className="each-slide-effect">
+              <img className="prizes-img-and-caption" src={echodot}  alt="echo dot" />
+              Echo Dot
+            </div>
+            <div className="each-slide-effect">
+              <img className="prizes-img-and-caption" src={bobaplush}  alt="boba plush" />
+              Boba Plush
+            </div>
+            <div className="each-slide-effect">
+              <img className="prizes-img-and-caption" src={bluemech}  alt="blue mechanical keyboard" />
+              Blue Mechanical Keyboard
             </div>
           </Slide>
         </div>

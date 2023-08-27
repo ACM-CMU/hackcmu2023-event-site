@@ -1,0 +1,123 @@
+.team-page {
+    color: white;
+    margin-bottom: 60px;
+  }
+  .team-page * {
+    overflow-x: visible !important;
+  }
+  .team-page .team-content {
+    height: 100%;
+    color: white;
+  }
+  .team-page .team-header {
+    height: 5vh;
+  }
+  .team-page .team-title {
+    font-family: "Fredoka One", cursive;
+    font-size: 5em;
+    letter-spacing: 3px;
+    color: #475e98;
+  }
+  
+  .legend {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .legend-event {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+  .legend-box {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+  }
+  .legend-label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  
+  .main-event {
+    background-color: rgb(131, 131, 237);
+  }
+  .workshops {
+    background-color: rgb(128, 156, 199);
+  }
+  .food {
+    background-color: rgb(199, 128, 199);
+  }
+  
+  .team-day-button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.75rem;
+    font-weight: 900;
+    background: #801ca4;
+    cursor: pointer;
+    color: white;
+    border: 0px solid white;
+    text-align: center;
+    margin: 20px;
+  }
+  #friday {
+    border: 3px solid white;
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  .team-event {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    min-height: 60px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .team-event .col p {
+    margin: 0px 8px;
+  }
+  .team-event .details {
+    color: black;
+  }
+  .team-event .col {
+    flex-basis: 40%;
+  }
+  .team-event .col:last-child {
+    flex-basis: 60%;
+    border-left: 3px solid white;
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .team-page .team-title {
+      font-size: 4.5em;
+    }
+    .legend {
+      margin: auto !important;
+    }
+    .legend-event p {
+      font-size: 1em;
+    }
+    .team-event {
+      width: 70vw;
+      display: flex;
+      align-items: center;
+    }
+  }
+  

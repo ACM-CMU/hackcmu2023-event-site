@@ -14,7 +14,7 @@
 .prizes-page .prizes-title {
   font-family: "Fredoka One", cursive;
   font-size: 5em;
-  color: #db35f1;
+  color: #475e98;
 }
 .prizes-page {
   width: 100%;
@@ -22,6 +22,7 @@
 }
 .prizes-img-and-caption {
   width: fit-content;
+  height: fit-content;
   margin: 5vh auto;
   display: flex;
   flex-direction: row;
@@ -58,13 +59,13 @@
   margin: 7px auto;
 }
 .prizes-list b {
-  color: #db35f1;
+  color: #475e98;
 }
 .react-slideshow-container {
   width: 53vh;
   margin: auto;
-  background-color: #db35f1;
-  border: 13px solid #db35f1;
+  background-color: #475e98;
+  border: 13px solid #475e98;
   border-radius: 20px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -87,8 +88,9 @@
   border-radius: 5%;
   text-align: center;
   margin-top: 60%;
-  color: #ff00e0;
+  color: white;
 }
+
 
 @media only screen and (max-width: 460px) {
   .prizes-page .prizes-title {

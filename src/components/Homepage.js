@@ -17,12 +17,11 @@ const Homepage = () => {
                     </div>
                 </div> */}
                 <div class="section" id="home">
-                    <div id="star-container">
-                        <div id='stars'></div>
-                        <div id='stars2'></div>
-                        <div id='stars3'></div>
-                    </div>
-                    
+                <div id="star-container">
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars2a'></div>
+                </div>
                 </div>
                 <img class="home-page-logo-pic" src={hero}  alt="hero" width="30%" />
                 <div className="home-page-sign-up-links">

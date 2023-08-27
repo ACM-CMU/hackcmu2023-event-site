@@ -13,24 +13,25 @@
 }
 .sponsors-page .sponsors-title {
   font-family: "Roboto Mono", monospace;
+  font-weight: 600;
   font-size: 5em;
-  color: #475e98;
+  color: whitesmoke;
   padding-bottom: 15px;
 }
 .sponsors-container {
   width: 76vw;
   margin: auto;
-  border: 5px solid #a1afd2;
+  border: 5px solid #ffffff;
   border-radius: 30px;
 }
 #plat-sponsors-container {
-  background-color: #8d9bc3;
+  background-color: #ea0a0a;
 }
 #gold-sponsors-container {
-  background-color: #475e98;
+  background-color: #9c0f0f;
 }
 #silver-sponsors-container {
-  background-color: #475e98;
+  background-color: #6d0000;
 }
 #bronze-sponsors-container {
   background-color: #475e98;

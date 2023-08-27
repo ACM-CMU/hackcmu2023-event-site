@@ -31,7 +31,7 @@ const Navbar = () => {
                         <span>2</span>
                         <span>0</span>
                         <span>2</span>
-                        <span>2</span>
+                        <span>3</span>
                     </div>
                     {/* <img className='navbar-logo' src="../../hackcmu-logo-black-short.png"></img>                 */}
                 </Link>

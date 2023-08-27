@@ -6,11 +6,12 @@ const fridaySchedule = () => {
     <div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>5:00 - 5:45 PM</p>
+          <p>5:30 - 6:00 PM</p>
         </div>
         <div class="col">
-          <p>Check-in</p>
+          <p>Check-in / Team Match A</p>
           <p class="details">Tepper 1101</p>
+          <p class="details">Check in with organizers and find team members</p>
         </div>
       </div>
       <div class="schedule-event main-event2">
@@ -35,24 +36,39 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event workshop">
         <div class="col">
-          <p>9:30 - 10:00 PM</p>
+          <p>9:00 - 9:30 PM</p>
         </div>
         <div class="col">
           <p>Workshop A / Team Match B</p>
           <p class="details">GHC 2401</p>
+        </div>
+      </div>
+      <div class="schedule-event workshop">
+        <div class="col">
+          <p>9:30 - 10:00 PM</p>
+        </div>
+        <div class="col">
           <p>Workshop B</p>
           <p class="details">CIC 1201</p>
+        </div>
+      </div>
+      <div class="schedule-event workshop">
+        <div class="col">
+          <p>10:30 - 11:00 PM</p>
+        </div>
+        <div class="col">
           <p>Workshop C</p>
           <p class="details">NSH 1301</p>
         </div>
       </div>
       <div class="schedule-event foods">
         <div class="col">
-          <p>12:00 - 1:00 PM</p>
+          <p>12:00 - 1:00 AM</p>
         </div>
         <div class="col">
           <p>Midnight Snack</p>
-          <p class="details">Gates La Prima</p>
+          <p class="details">Gates Atrium</p>
+          <p class="details">Among Us / Scavengar Hunt</p>
         </div>
       </div>
     </div>
@@ -72,27 +88,55 @@ const saturdaySchedule = () => {
           <p class="details">Get breakfast after a long night of hacking!</p>
         </div>
       </div>
-      <div class="schedule-event main-event2">
+      <div class="schedule-event workshop">
         <div class="col">
-          <p>11:00 - 11:30 PM</p>
+          <p>10:00 - 11:30 PM</p>
         </div>
         <div class="col">
-          <p>Project Submission Deadline</p>
-          <p class="details">Devpost</p>
+          <p>Sponsor Workshops</p>
+          <p class="details">Multiple Places</p>
         </div>
       </div>
-      <div class="schedule-event main-event2">
+      <div class="schedule-event foods">
         <div class="col">
-          <p>12:00 - 1:30 PM</p>
+          <p>12:00 - 1:00 PM</p>
         </div>
         <div class="col">
-          <p>Lunch & Project Expo</p>
+          <p>Lunch</p>
           <p class="details">Tepper 1101</p>
         </div>
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
+          <p>1:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Project Submission Deadline</p>
+          <p class="details">Devpost</p>
+          <p class="details">Submit your project by 1:00 PM on Devpost</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event2">
+        <div class="col">
           <p>2:00 - 2:30 PM</p>
+        </div>
+        <div class="col">
+          <p>Judging</p>
+          <p class="details">Tepper 1101</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event2">
+        <div class="col">
+          <p>3:00 - 4:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Expo</p>
+          <p class="details">Tepper 1101</p>
+        </div>
+      </div>
+      <div class="schedule-event main-event2">
+        <div class="col">
+          <p>4:00 - 5:00 PM</p>
         </div>
         <div class="col">
           <p>Closing Ceremony</p>

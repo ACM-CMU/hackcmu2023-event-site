@@ -13,10 +13,11 @@
     height: 5vh;
   }
   .team-page .team-title {
-    font-family: "Fredoka One", cursive;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
     font-size: 5em;
     letter-spacing: 3px;
-    color: #475e98;
+    color: whitesmoke;
   }
   
   .legend {

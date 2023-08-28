@@ -13,8 +13,9 @@
 }
 .prizes-page .prizes-title {
   font-family: "Roboto Mono", monospace;
+  font-weight: 600;
   font-size: 5em;
-  color: #475e98;
+  color: whitesmoke;
 }
 .prizes-page {
   width: 100%;
@@ -25,7 +26,7 @@
   height: fit-content;
   margin: 5vh auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 @media only screen and (max-width: 900px) {
   .prizes-img-and-caption {
@@ -33,16 +34,18 @@
   }
 }
 .prizes-caption {
-  width: 60vh;
-  text-align: left;
+  width: 100vh;
+  text-align: middle;
 }
 .prizes-caption-header {
   height: 8vh;
+  text-align: middle;
 }
 .prizes-para {
   font-size: 1.5em;
   border-width: 10px;
   border-color: white;
+  text-align: middle;
 }
 .prizes-caption-img-sep {
   width: 10vh;
@@ -62,10 +65,11 @@
   color: #475e98;
 }
 .react-slideshow-container {
-  width: 53vh;
+  width: 150vh;
+  height: 70vh;
   margin: auto;
-  background-color: #475e98;
-  border: 13px solid #475e98;
+  background-color: #9c0f0f;
+  border: 13px solid #9c0f0f;
   border-radius: 20px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -76,7 +80,7 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 50vh;
+  height: 70vh;
   width: 50vh;
 }
 
@@ -116,12 +120,10 @@
     width: 70vw;
     /* height: 70vw; */
     margin: auto;
-    border: 20px solid #db35f1;
   }
   .each-slide-effect > div {
     background-size: cover;
     border-radius: 10px;
-    height: 60vw;
     width: 60vw;
   }
   .each-slide-effect span {

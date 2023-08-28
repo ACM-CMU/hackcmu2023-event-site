@@ -11,7 +11,7 @@ const Team = () => {
         <div className="team-page">
       <div className="team-header"></div>{" "}
       {/* used to line up the scroll correctly */}
-      <div className="team-title">team</div>
+      <div className="team-title">Team</div>
       <br></br>
       <div className="team-content">
       <div class="section" id="team">

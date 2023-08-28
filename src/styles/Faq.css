@@ -11,9 +11,10 @@
   height: 10vh;
 }
 .faq-page .faq-title {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
   font-size: 5em;
-  color: #475e98;
+  color: whitesmoke;
   margin-bottom: 3vh;
 }
 .faq-page .faq-q-a-container {
@@ -43,8 +44,8 @@
   font-family: "Roboto Mono", monospace;
   background-image: linear-gradient(
     45deg,
-    #475e98,
-    #475e98
+    #ea0a0a,
+    #ea0a0a
   );
   background-clip: text;
   font-weight: bold;
@@ -76,8 +77,8 @@
 .faq-body {
   background-image: linear-gradient(
     45deg,
-    #475e98,
-    #475e98
+    #ea0a0a,
+    #ea0a0a
   );
   padding: 50px;
   border-radius: 25px;
@@ -97,8 +98,8 @@
   clip-path: circle(50%);
   background-image: linear-gradient(
     45deg,
-    rgb(137, 174, 234),
-    rgb(204, 180, 237)
+    rgb(234, 137, 137),
+    rgb(252, 0, 0)
   );
 }
 .row-content {

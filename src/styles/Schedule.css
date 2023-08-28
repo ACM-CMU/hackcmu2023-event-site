@@ -14,9 +14,10 @@
 }
 .schedule-page .schedule-title {
   font-family: "Roboto Mono", monospace;
+  font-weight: 600;
   font-size: 5em;
-  letter-spacing: 3px;
-  color: #ffffff;
+  color: whitesmoke;
+  padding-bottom: 15px;
 }
 
 .legend {
@@ -48,14 +49,14 @@
   margin-left: 10px;
 }
 
-.main-event {
-  background-color: #244ec1;
+.main-event2 {
+  background-color: #ea0a0a;
 }
-.workshops {
-  background-color: #475e98;
+.workshop {
+  background-color: #9c0f0f;
 }
-.food {
-  background-color: #a1abc8;
+.foods {
+  background-color: #6d0000;
 }
 
 .schedule-day-button {
@@ -94,7 +95,7 @@
   margin: 0px 8px;
 }
 .schedule-event .details {
-  color: black;
+  color: blanchedalmond;
 }
 .schedule-event .col {
   flex-basis: 40%;

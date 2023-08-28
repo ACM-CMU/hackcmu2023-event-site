@@ -30,11 +30,11 @@ const Homepage = () => {
                             Sign up as participant
                         </div>
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScply9xc9dBY4Nqe4Sx8vLzkcKPFS8G3DqzRQ1CARIszV6sLw/viewformIvY25MYoZCe_gnEyYbWbCpebXs7MgHIKA/viewform">
+                    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScply9xc9dBY4Nqe4Sx8vLzkcKPFS8G3DqzRQ1CARIszV6sLw/viewformIvY25MYoZCe_gnEyYbWbCpebXs7MgHIKA/viewform">
                         <div className="sign-up-button" id="mentor-button">
                             Sign up as mentor
                         </div>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

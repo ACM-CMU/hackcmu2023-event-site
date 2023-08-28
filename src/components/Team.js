@@ -4,7 +4,8 @@ import jesse from '../images/team/jesseding.jpg'
 import jeffery from '../images/team/jefferyjohn.jpg'
 import tanisha from '../images/team/tanishasaxena.jpg'
 import aarav from '../images/team/aaravbajaj.jpg'
-
+import alexis from '../images/team/alexisduong.jpg'
+import jackson from '../images/team/jacksonchen.jpg'
 const Team = () => {
     return (
         <div className="team-page">
@@ -17,14 +18,18 @@ const Team = () => {
             <div id="photos">
                 <a href="https://www.linkedin.com/in/nkurelli/"><img src={neeha}
                         data-src={neeha} alt="Neeha Kurelli" width="10%" /></a>
-                <a href="https://www.linkedin.com/in/jesse-ding/"></a><img src={jesse}
-                    data-src={jesse} alt="Jesse Ding" width="10%" />
-                <a href="https://www.linkedin.com/in/jefferyjohn/"></a><img src={jeffery}
-                    data-src={jeffery} alt="Jeffeyr John" width="10%" />
-                <a href="https://www.linkedin.com/in/tanishasaxena/"></a><img src={tanisha}
-                    data-src={tanisha} alt="Tanisha Saxena" width="10%" />
-                <a href="https://www.linkedin.com/in/aarav-bajaj-408ab01b1/"></a><img src={aarav}
-                    data-src={aarav} alt="Aarav Bajaj" width="10%" />
+                <a href="https://www.linkedin.com/in/jesse-ding/"><img src={jesse}
+                    data-src={jesse} alt="Jesse Ding" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/jefferyjohn/"><img src={jeffery}
+                    data-src={jeffery} alt="Jeffeyr John" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/tanishasaxena/"><img src={tanisha}
+                    data-src={tanisha} alt="Tanisha Saxena" width="10%"/></a>
+                <a href="https://www.linkedin.com/in/aarav-bajaj-408ab01b1/"><img src={aarav}
+                    data-src={aarav} alt="Aarav Bajaj" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/alexis-duong/"><img src={alexis}
+                    data-src={aarav} alt="Alexis Doung" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/zanzaochen/"><img src={jackson}
+                    data-src={aarav} alt="Jackson Chen" width="10%" /></a>
             </div>
         </div>
       </div>

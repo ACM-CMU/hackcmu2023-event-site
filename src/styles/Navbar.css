@@ -88,7 +88,7 @@
   display: flex;
   flex-direction: row;
   margin-left: auto;
-  margin-right: 4em;
+  margin-right: 10em;
 }
 .navbar .links-container .link {
   font-size: 1.3em;
@@ -100,7 +100,7 @@
 }
 
 .navbar .links-container .link:hover {
-  color: #db35f1;
+  color: #d64d4d;
   transform: rotate(-15deg);
 }
 

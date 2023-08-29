@@ -25,16 +25,16 @@
   border-radius: 30px;
 }
 #plat-sponsors-container {
-  background-color: #ea0a0a;
-}
-#gold-sponsors-container {
   background-color: #9c0f0f;
 }
+#gold-sponsors-container {
+  background-color: #e05656;
+}
 #silver-sponsors-container {
-  background-color: #6d0000;
+  background-color: #962c2c;
 }
 #bronze-sponsors-container {
-  background-color: #475e98;
+  background-color: #c24141;
 }
 
 .sponsors-level {
@@ -81,15 +81,22 @@
 }
 
 .sponsors.sponsors-platinum a {
-  width: 40vh;
+  width: 30vh;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 2em;
 }
 
 .sponsors.sponsors-gold img {
-  width: 30vh;
+  width: 100%;
   /* border-radius: 20px; */
+}
+
+.sponsors.sponsors-gold a {
+  width: 30vh;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 1em;
 }
 
 .sponsors .rounded-sponsor-img img {
@@ -100,12 +107,6 @@
   width: 30vh !important;
 }
 
-.sponsors.sponsors-gold a {
-  width: 40vh;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 2em;
-}
 
 .sponsors.sponsors-silver {
   margin-top: 2.5rem;

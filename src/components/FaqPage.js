@@ -10,7 +10,7 @@ const FaqPage = () => {
       },
       {
         title: "Q: What is this year's theme?",
-        content: `This year's theme is "Gamification"! Students are encouraged to create hacks that incorporate game-playing into other activities. Gamification is exciting because it promises to make the hard stuff in life fun!`,
+        content: `This year's theme is "Space"!`,
       },
       {
         title: "Q: Should I sign up as a participant or mentor?",
@@ -18,7 +18,7 @@ const FaqPage = () => {
       },
       {
         title: "Q: Where will HackCMU be held?",
-        content: `HackCMU will mostly place in Gates, but there are also designated hacking areas in Tepper!`,
+        content: `HackCMU will mostly place in Tepper Simmons, but there are also designated hacking areas in Gates!`,
       },
       {
         title: "Q: How much does this cost?",
@@ -46,7 +46,7 @@ const FaqPage = () => {
       },
       {
         title: "Q: Who runs this event?",
-        content: `You can learn more about us over here.`,
+        content: `You can learn more about us at acmatcmu.com.`,
       },
       {
         title: "Q: Any other questions, comments, or concerns?",

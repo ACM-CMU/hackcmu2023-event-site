@@ -16,18 +16,7 @@ import echodot from '../images/prizes/echo-dot.jpg';
 import bobaplush from '../images/prizes/boba-plush.jpg';
 
 const Prizes = () => {
-  const images = [
-    "../../imgs/mechkey-2.jpg",
-    "../../imgs/lego.jpg",
-    "../../imgs/echo.jpg",
-    "../../imgs/charger-2.jpg",
-    "../../imgs/pinkblueoctopus.jpg",
-    "../../imgs/grayblueoctopus.jpg",
-    "../../imgs/turtle.jpg",
-    "../../imgs/pinkbluenarwhal.jpg",
-    "../../imgs/blackwhitenarwhal.jpg",
-    "../../imgs/spikeball.png",
-  ];
+  
   return (
     <div className="prizes-page">
       <div className="prizes-content">
@@ -53,55 +42,55 @@ const Prizes = () => {
           <Slide>
             <div className="each-slide-effect">
               <img  className="prizes-img-and-caption" src={telescope} alt="telescope" />
-              Telescope
+              <b> Telescope </b>
             </div>
             <div className="each-slide-effect">
             <img  className="prizes-img-and-caption" src={starprojector}  alt="star projector" />
-              Star Projector
+            <b> Star Projector </b>
             </div>
             <div className="each-slide-effect">
             <img  className="prizes-img-and-caption" src={spikeball}  alt="spikeball set" />
-              Spikeball Set
+            <b> Spikeball Set </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={skullcandy}  alt="skullcandy earbuds" />
-              Skullcandy Earbuds
+              <b> Skullcandy Earbuds </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src ={projector}  alt="projector" />
-              Projector
+              <b> Projector </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={pinkblue}  alt="pink and blue octopus plush" />
-              Pink and Blue Octopus Plush
+              <b> Pink and Blue Octopus Plush </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={navywhite}  alt="navy and white octopus plush" />
-              Navy and White Octopus Plush
+              <b> Navy and White Octopus Plush </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption"  src={mouse}  alt="mouse" />
-              Mouse
+              <b> Mouse </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={ledlight}  alt="led light" />
-              LED Light
+              <b> LED Light </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={isslegoset}  alt="iss lego set" />
-              ISS Lego Set
+              <b> ISS Lego Set </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={echodot}  alt="echo dot" />
-              Echo Dot
+              <b> Echo Dot </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={bobaplush}  alt="boba plush" />
-              Boba Plush
+              <b> Boba Plush </b>
             </div>
             <div className="each-slide-effect">
               <img className="prizes-img-and-caption" src={bluemech}  alt="blue mechanical keyboard" />
-              Blue Mechanical Keyboard
+              <b> Blue Mechanical Keyboard </b>
             </div>
           </Slide>
         </div>

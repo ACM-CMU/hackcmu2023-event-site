@@ -3,6 +3,7 @@ import hero from '../images/hero.png'
 const Homepage = () => { 
     return (  
         <div className="home-page">
+            
             <div className="home-page-content">
                 {/* <div className="home-page-center-content">
                     <div className="home-page-logo">HACKCMU 2022</div>
@@ -16,6 +17,7 @@ const Homepage = () => {
                         <span></span>
                     </div>
                 </div> */}
+                
                 <div class="section" id="home">
                 <div id="star-container">
                     <div id='stars'></div>

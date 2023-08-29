@@ -28,6 +28,13 @@
   display: flex;
   flex-direction: column;
 }
+
+.prizes-img-and-caption2 {
+  /* width: fit-content;
+  height: fit-content; */
+  margin: 5vh auto;
+  display: flex;
+}
 @media only screen and (max-width: 900px) {
   .prizes-img-and-caption {
     flex-direction: row;
@@ -35,27 +42,26 @@
 }
 .prizes-caption {
   width: 100vh;
-  text-align: middle;
+  text-align: center;
 }
 .prizes-caption-header {
-  height: 8vh;
-  text-align: middle;
+  text-align: center;
 }
 .prizes-para {
   font-size: 1.5em;
   border-width: 10px;
   border-color: white;
-  text-align: middle;
+  text-align: center;
 }
 .prizes-caption-img-sep {
   width: 10vh;
-  height: 10vh;
+  height: 8vh;
 }
 
 .prizes-list {
   margin: auto;
   width: fit-content;
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
 }
 .prizes-list li {
@@ -67,10 +73,15 @@
 }
 .react-slideshow-container {
   width: 80vh;
+  color: #cc0000;
+}
+.react-slideshow-container {
+  width: 150vh;
   height: 80vh;
   margin: auto;
-  background-color: #9c0f0f;
-  border: 13px solid #9c0f0f;
+  background-color: #cc0000;
+  border: 13px solid #cc0000;
+  z-index: 10;
   border-radius: 20px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -126,7 +137,6 @@
   .react-slideshow-container {
     width: 70vw;
     height: 70w;
-    /* height: 70vw; */
     margin: auto;
   }
   .each-slide-effect > div {
@@ -137,6 +147,6 @@
   }
   .each-slide-effect span {
     font-size: 1.2em;
-    margin-top: 50%;
+    /* margin-top: 50%; */
   }
 }

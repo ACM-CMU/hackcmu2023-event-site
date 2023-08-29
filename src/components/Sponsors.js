@@ -5,7 +5,7 @@ import janestreet from '../images/sponsors/logo_horizontal_blue_registered.png'
 import sandia from '../images/sponsors/sandia-logo.png'
 import ford from '../images/sponsors/Ford_logo_flat.svg.png'
 import deshaw from '../images/sponsors/2298205.png'
-import bnymellon from '../images/sponsors/bny_mellon.jpeg'
+import bnymellon from '../images/sponsors/bny_mellon_logo.jpeg'
 const Sponsors = () => { 
 
     return (
@@ -37,7 +37,7 @@ const Sponsors = () => {
                         <a className="rounded-sponsor-img" href="https://www.deshaw.com/">
                         <img src={deshaw} alt="sponsors"/>
                         </a>
-                        <a className="rounded-sponsor-img" href="https://www.deshaw.com/">
+                        <a className="rounded-sponsor-img" href="https://www.bnymellon.com/">
                         <img src={bnymellon} alt="sponsors"/>
                         </a>
                 </div>

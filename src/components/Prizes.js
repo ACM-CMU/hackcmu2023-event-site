@@ -16,6 +16,10 @@ import echodot from '../images/prizes/echo-dot.jpg';
 import bobaplush from '../images/prizes/boba-plush.jpg';
 
 const Prizes = () => {
+  const data = [{"src": telescope, alt: "telescope"},
+{"src" : starprojector, alt: "star projector"}, 
+{"src" : spikeball, alt: "spike ball"},
+{"src" : skullcandy, alt: "sckull candy earbuds"}]
   
   return (
     <div className="prizes-page">

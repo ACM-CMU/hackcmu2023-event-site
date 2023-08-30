@@ -72,29 +72,35 @@
   color: #c04343;
   font-weight:bolder;
 }
+
 .react-slideshow-container {
   width: 80vh;
   color: #cc0000;
+  background-size: contain;
+  overflow-y: scroll;
 }
 .react-slideshow-container {
-  width: 150vh;
+  width: 100vh;
   height: 80vh;
   margin: auto;
   background-color: #cc0000;
+  background-size: contain;
   border: 13px solid #cc0000;
   z-index: 10;
   border-radius: 20px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  overflow-y: scroll;
 }
 .each-slide-effect > div {
   display: fit;
   align-items: flex-start;
   justify-content: center;
-  background-size: cover;
+  background-size: contain;
   height: 100%;
   width: 100%;
+  overflow-y: scroll;
 }
 
 .each-slide-effect span {
@@ -104,14 +110,24 @@
   max-height: 10vh;
   border-radius: 5%;
   text-align: center;
+  background-size: contain;
   position: absolute;
   bottom: 0; /* Adjust this value if needed */
   margin: 0 auto;
   color: white;
+  overflow-y: scroll;
 }
 .prizes-img-and-caption img {
   max-width: 100%;
   max-height: 100%;
+  background-size: center;
+  overflow-y: scroll;
+
+  ;
+}
+#prize-image{
+  height: 475px;
+  
 }
 
 @media only screen and (max-width: 460px) {
@@ -147,6 +163,7 @@
   }
   .each-slide-effect span {
     font-size: 1.2em;
+    
     /* margin-top: 50%; */
   }
 }

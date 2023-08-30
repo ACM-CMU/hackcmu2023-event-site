@@ -45,55 +45,55 @@ const Prizes = () => {
           <div className="prizes-caption-img-sep"></div>
           <Slide>
             <div className="each-slide-effect">
-              <img  className="prizes-img-and-caption" src={telescope} alt="telescope" />
+              <img  id="prize-image" className="prizes-img-and-caption" src={telescope} alt="telescope" />
               <b> Telescope </b>
             </div>
             <div className="each-slide-effect">
-            <img  className="prizes-img-and-caption" src={starprojector}  alt="star projector" />
+            <img  id="prize-image" className="prizes-img-and-caption" src={starprojector}  alt="star projector" />
             <b> Star Projector </b>
             </div>
             <div className="each-slide-effect">
-            <img  className="prizes-img-and-caption" src={spikeball}  alt="spikeball set" />
+            <img  id="prize-image" className="prizes-img-and-caption" src={spikeball}  alt="spikeball set" />
             <b> Spikeball Set </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={skullcandy}  alt="skullcandy earbuds" />
+              <img id="prize-image" className="prizes-img-and-caption" src={skullcandy}  alt="skullcandy earbuds" />
               <b> Skullcandy Earbuds </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src ={projector}  alt="projector" />
+              <img id="prize-image" className="prizes-img-and-caption" src ={projector}  alt="projector" />
               <b> Projector </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={pinkblue}  alt="pink and blue octopus plush" />
+              <img id="prize-image" className="prizes-img-and-caption" src={pinkblue}  alt="pink and blue octopus plush" />
               <b> Pink and Blue Octopus Plush </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={navywhite}  alt="navy and white octopus plush" />
+              <img id="prize-image" className="prizes-img-and-caption" src={navywhite}  alt="navy and white octopus plush" />
               <b> Navy and White Octopus Plush </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption"  src={mouse}  alt="mouse" />
+              <img id="prize-image" className="prizes-img-and-caption"  src={mouse}  alt="mouse" />
               <b> Mouse </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={ledlight}  alt="led light" />
+              <img id="prize-image" className="prizes-img-and-caption" src={ledlight}  alt="led light" />
               <b> LED Light </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={isslegoset}  alt="iss lego set" />
+              <img id="prize-image" className="prizes-img-and-caption" src={isslegoset}  alt="iss lego set" />
               <b> ISS Lego Set </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={echodot}  alt="echo dot" />
+              <img id="prize-image" className="prizes-img-and-caption" src={echodot}  alt="echo dot" />
               <b> Echo Dot </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={bobaplush}  alt="boba plush" />
+              <img id="prize-image" className="prizes-img-and-caption" src={bobaplush}  alt="boba plush" />
               <b> Boba Plush </b>
             </div>
             <div className="each-slide-effect">
-              <img className="prizes-img-and-caption" src={bluemech}  alt="blue mechanical keyboard" />
+              <img id="prize-image" className="prizes-img-and-caption" src={bluemech}  alt="blue mechanical keyboard" />
               <b> Blue Mechanical Keyboard </b>
             </div>
           </Slide>

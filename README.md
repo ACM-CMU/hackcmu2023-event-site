@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Clone the directory onto your computer and ```cd``` into the project directory :
 ```
 git clone [...link here...]
-cd hackcmu2023-event-site
+cd hackcmu
 ```
 
 To install Node.js and npm, go [here](https://nodejs.org/en/download/)

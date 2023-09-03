@@ -6,6 +6,8 @@ import tanisha from '../images/team/tanishasaxena.jpg'
 import aarav from '../images/team/aaravbajaj.jpg'
 import alexis from '../images/team/alexisduong.jpg'
 import jackson from '../images/team/jacksonchen.jpg'
+import divyaansh from '../images/team/divyaanshsinha.jpg'
+
 const Team = () => {
     return (
         <div className="team-page">
@@ -29,6 +31,8 @@ const Team = () => {
                 <a href="https://www.linkedin.com/in/alexis-duong/"><img src={alexis}
                     data-src={aarav} alt="Alexis Doung" width="10%" /></a>
                 <a href="https://www.linkedin.com/in/zanzaochen/"><img src={jackson}
+                    data-src={aarav} alt="Jackson Chen" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/divyaansh-sinha"><img src={divyaansh}
                     data-src={aarav} alt="Jackson Chen" width="10%" /></a>
             </div>
         </div>

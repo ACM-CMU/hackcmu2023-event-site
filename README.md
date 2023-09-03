@@ -31,5 +31,8 @@ git add -A
 git commit -m "commit message here"
 git push
 ```
-
+This will deploy the changes to the actual website on gh-pages:  
+```
+npm run deploy
+```
 

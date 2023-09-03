@@ -35,19 +35,22 @@
 }
 .home-page-sign-up-links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: auto;
+  height: 100%;
 }
 .sign-up-button {
   color:white;
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  min-width: 200px;
   /* top: -15vh; */
   /* left: 2vh; */
   z-index: 10;
-  width: 12em;
-  height: 3em;
+  width: 90%;
+  height: 50%;
   line-height: 1.5em;
   margin: 4vh auto;
   /* margin: auto; */
@@ -57,7 +60,18 @@
   font-family: "Roboto Mono", monospace;
   font-weight: 600;
   vertical-align: middle;
+  top: 60px;
+  right: 5.5%;
+  text-align: center;
 }
+
+@media (max-width: 768px) {
+  .sign-up-button {
+    left: 2%;
+    margin-top: -1px;
+  }
+}
+
 #participant-button {
   margin-right: .5em;
 }
@@ -186,7 +200,7 @@
     height: 2.5em;
     line-height: 1.2em;
     position: relative;
-    top: -5vh;
+    top: 10px;
     margin: 0vh auto io !important;
   }
 }

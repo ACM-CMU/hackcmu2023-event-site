@@ -99,6 +99,10 @@
   border-bottom: 0px solid #ccc !important;
   
 }
+
+.custom-link {
+  color: white; 
+}
 .faq-body {
   position: relative;
   background-image: linear-gradient(

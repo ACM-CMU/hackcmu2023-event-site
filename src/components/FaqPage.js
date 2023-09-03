@@ -34,7 +34,7 @@ const FaqPage = () => {
       },
       {
         title: "Q: How big can a team be?!",
-        content: `Up to 4 people`,
+        content: `Up to 4 people!`,
       },
       {
         title: "Q: What are the rules? Can I work on my project ahead of time?",
@@ -46,11 +46,11 @@ const FaqPage = () => {
       },
       {
         title: "Q: Who runs this event?",
-        content: `You can learn more about us at acmatcmu.com.`,
+        content: `You can learn more about us at <a href="http://acmatcmu.com" class="custom-link">acmatcmu.com</a>!`,
       },
       {
         title: "Q: Any other questions, comments, or concerns?",
-        content: `Email us at acm-exec[at]cs.cmu.edu.`,
+        content: `Email us at acm-exec@cs.cmu.edu.`,
       },
     ],
   };

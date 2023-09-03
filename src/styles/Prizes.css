@@ -4,6 +4,7 @@
 }
 .prizes-page * {
   overflow-x: hidden !important;
+
 }
 .prizes-page .prizes-content {
   height: 100%;
@@ -44,6 +45,7 @@
 .prizes-caption {
   width: 100vh;
   text-align: center;
+
 }
 .prizes-caption-header {
   text-align: center;
@@ -53,6 +55,9 @@
   border-width: 10px;
   border-color: white;
   text-align: center;
+  position: relative;
+  z-index: 2;
+  background-color: black; 
 }
 .prizes-caption-img-sep {
   width: 10vh;
@@ -64,6 +69,9 @@
   width: fit-content;
   text-align: center;
   font-size: 1.5em;
+  position: relative;
+  z-index: 2;
+  background-color: black;
 }
 .prizes-list li {
   margin: 7px auto;

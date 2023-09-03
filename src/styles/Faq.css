@@ -1,14 +1,18 @@
 .faq-page * {
   overflow-x: visible !important;
+  
 }
 .faq-page .faq-content {
   height: 100%;
+  
 }
 .faq-page .faq-header {
   height: 5vh;
+  
 }
 .faq-page .faq-footer {
   height: 10vh;
+  
 }
 .faq-page .faq-title {
   font-family: 'Roboto Mono', monospace;
@@ -16,11 +20,25 @@
   font-size: 5em;
   color: whitesmoke;
   margin-bottom: 3vh;
+  
 }
 .faq-page .faq-q-a-container {
   margin: 2vh auto;
   display: flex;
   flex-direction: column;
+  
+}
+
+#stars {
+  z-index: 1;
+}
+
+#stars2 {
+  z-index: 1;
+}
+
+#stars2a{
+  z-index: 1;
 }
 
 .styles_faq-row-wrapper__3vA1D
@@ -30,14 +48,17 @@
   .styles_row-content-text__2sgAB {
   padding-top: 10px !important;
   padding-left: 5px !important;
+  
 }
 .faq-page .faq-q {
   text-align: left;
   font-weight: bold;
+  
 }
 .faq-page .faq-a {
   text-align: left;
   margin-left: 5vh;
+  
 }
 
 .row-title-text {
@@ -50,6 +71,7 @@
   background-clip: text;
   font-weight: bold;
   color: transparent;
+  
 }
 
 .styles_icon-wrapper__2cftw:hover {
@@ -58,6 +80,7 @@
   transition: 0.2s !important;
   -webkit-transform: scale(1.05) !important;
   transform: scale(1.05) !important;
+  
 }
 
 .styles_faq-row-wrapper__3vA1D
@@ -70,11 +93,14 @@
   padding-right: 10px !important;
   padding-bottom: 10px !important;
   padding-left: 10px !important;
+  
 }
 .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
   border-bottom: 0px solid #ccc !important;
+  
 }
 .faq-body {
+  position: relative;
   background-image: linear-gradient(
     45deg,
     #cc0000,
@@ -82,6 +108,7 @@
   );
   padding: 50px;
   border-radius: 25px;
+  z-index: 2;
 }
 .faq-row-wrapper {
   color: rgb(105, 225, 255);
@@ -92,6 +119,7 @@
   margin: auto;
   background-color: black !important;
   background-image: url("../images/stars.png");
+  
 }
 
 .icon-wrapper {
@@ -101,13 +129,16 @@
     rgb(234, 137, 137),
     rgb(252, 0, 0)
   );
+  
 }
 .row-content {
   padding: 5px;
+  
 }
 
 .faq-row-wrapper {
   text-align: left;
+  
 }
 @media only screen and (max-width: 460px) {
   .faq-page .faq-title {

@@ -4,6 +4,8 @@
   }
   .team-page * {
     overflow-x: visible !important;
+    position: relative;
+    z-index: 2;
   }
   .team-page .team-content {
     height: 100%;

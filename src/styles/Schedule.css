@@ -4,6 +4,8 @@
 }
 .schedule-page * {
   overflow-x: visible !important;
+  position: relative;
+  z-index: 3;
 }
 .schedule-page .schedule-content {
   height: 100%;

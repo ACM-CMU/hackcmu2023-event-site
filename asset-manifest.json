@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hackcmu/static/css/main.7c5ec374.css",
+    "main.css": "/hackcmu/static/css/main.3ae500c3.css",
     "main.js": "/hackcmu/static/js/main.b56dd123.js",
     "static/js/787.e8e90110.chunk.js": "/hackcmu/static/js/787.e8e90110.chunk.js",
     "static/media/iss-lego-set.jpeg": "/hackcmu/static/media/iss-lego-set.7f0d58b445a19433f940.jpeg",
@@ -32,12 +32,12 @@
     "static/media/jefferyjohn.jpg": "/hackcmu/static/media/jefferyjohn.5732816ab7f0c2a03f8f.jpg",
     "static/media/tanishasaxena.jpg": "/hackcmu/static/media/tanishasaxena.9689bcb1f1ca8e6eb4a9.jpg",
     "index.html": "/hackcmu/index.html",
-    "main.7c5ec374.css.map": "/hackcmu/static/css/main.7c5ec374.css.map",
+    "main.3ae500c3.css.map": "/hackcmu/static/css/main.3ae500c3.css.map",
     "main.b56dd123.js.map": "/hackcmu/static/js/main.b56dd123.js.map",
     "787.e8e90110.chunk.js.map": "/hackcmu/static/js/787.e8e90110.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c5ec374.css",
+    "static/css/main.3ae500c3.css",
     "static/js/main.b56dd123.js"
   ]
 }

@@ -21,7 +21,7 @@ const Homepage = () => {
                 <div className="home-page-sign-up-links">
                     <a href="https://cmu.ca1.qualtrics.com/jfe/form/SV_2nrluKEiu0VOgLA?">
                         <div className="sign-up-button" id="participant-button">
-                            Sign up as participant
+                            <p className='sign-up-text'> Sign up as participant </p>
                         </div>
                     </a>
                     {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScply9xc9dBY4Nqe4Sx8vLzkcKPFS8G3DqzRQ1CARIszV6sLw/viewformIvY25MYoZCe_gnEyYbWbCpebXs7MgHIKA/viewform">

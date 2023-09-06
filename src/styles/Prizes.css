@@ -90,7 +90,7 @@
 
 .react-slideshow-container {
   width: 80vh;
-  color: #cc0000;
+  color: #cd2406;
   background-size: contain;
   overflow-y: scroll;
 }
@@ -98,9 +98,9 @@
   width: 100vh;
   height: 80vh;
   margin: auto;
-  background-color: #cc0000;
+  background-color: #cd2406;
   background-size: contain;
-  border: 13px solid #cc0000;
+  border: 13px solid #cd2406;
   z-index: 10;
   border-radius: 1.5em;
   box-sizing: border-box;

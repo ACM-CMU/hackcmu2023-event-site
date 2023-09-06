@@ -40,7 +40,6 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Workshop A / Team Match B</p>
-          <p class="details">GHC 2401</p>
         </div>
       </div>
       <div class="schedule-event workshop">
@@ -49,7 +48,6 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Workshop B</p>
-          <p class="details">CIC 1201</p>
         </div>
       </div>
       <div class="schedule-event workshop">
@@ -58,7 +56,6 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Workshop C</p>
-          <p class="details">NSH 1301</p>
         </div>
       </div>
       <div class="schedule-event foods">
@@ -67,7 +64,6 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Midnight Snack</p>
-          <p class="details">Gates Atrium</p>
           <p class="details">Among Us / Scavengar Hunt</p>
         </div>
       </div>
@@ -94,7 +90,6 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Sponsor Workshops</p>
-          <p class="details">Multiple Places</p>
         </div>
       </div>
       <div class="schedule-event foods">
@@ -103,7 +98,6 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Lunch</p>
-          <p class="details">Tepper 1101</p>
         </div>
       </div>
       <div class="schedule-event main-event2">
@@ -122,7 +116,6 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Judging</p>
-          <p class="details">Tepper 1101</p>
         </div>
       </div>
       <div class="schedule-event main-event2">
@@ -131,7 +124,6 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Expo</p>
-          <p class="details">Tepper 1101</p>
         </div>
       </div>
       <div class="schedule-event main-event2">
@@ -140,7 +132,6 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Closing Ceremony</p>
-          <p class="details">Tepper 1101</p>
           <p class="details">We hope you continue to reach for the stars after our event :)</p>
         </div>
       </div>

@@ -50,17 +50,17 @@
   /* left: 2vh; */
   z-index: 10;
   width: 90%;
-  height: 50%;
+  height: 100%;
   line-height: 1.5em;
   margin: 4vh auto;
   /* margin: auto; */
   border: 3px solid white;
   border-radius: 2vh;
-  background-color: #cc0000;
+  background-color: #a60808;
   font-family: "Roboto Mono", monospace;
   font-weight: 600;
   vertical-align: middle;
-  top: 60px;
+  top: 70px;
   right: 5.5%;
   text-align: center;
 }
@@ -72,8 +72,13 @@
   }
 }
 
+.sign-up-text {
+  font-weight: 1000;
+}
+
 #participant-button {
   margin-right: .5em;
+  text-align: center;
 }
 #mentor-button {
   margin-left: .5em;
@@ -197,7 +202,7 @@
   .sign-up-button {
     font-size: 1.2em;
     width: 7em;
-    height: 2.5em;
+    height: 3em;
     line-height: 1.2em;
     position: relative;
     top: 10px;

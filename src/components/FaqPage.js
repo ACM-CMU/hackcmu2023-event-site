@@ -13,8 +13,12 @@ const FaqPage = () => {
         content: `This year's theme is "Space"!`,
       },
       {
-        title: "Q: Should I sign up as a participant or mentor?",
-        content: `Mentors are more experienced hackers who will assist the participants in creating their projects, instead of participating themselves! Mentors will be responsible for holding office hours and helping assigned groups. As a reward, they will receive additional goodies (like gift cards and swag bags), and they will also be eligible for the "coolest mentor" award!`,
+        title: "Q: When will project categories be released?",
+        content: `At the latest, project categories and sponsors will be released during our opening ceremony on Friday, September 15th. Please don't start or work on your project submissions before then, though considering ideas is acceptable. `,
+      },
+      {
+        title: "Q: What if I'm an undergrad / graduate / doctoral student?",
+        content: `All current CMU students are welcome! And we'll even have alumni and professors around to mentor. But please confirm eligibility for a challenge before submitting. We're happy to share that our industry partners are excited to meet students at all levels of academia!`,
       },
       {
         title: "Q: Where will HackCMU be held?",
@@ -25,16 +29,20 @@ const FaqPage = () => {
         content: `$0! We'll provide meals, snacks, drinks, and lots of swag, thanks to the support of our wonderful sponsors.`,
       },
       {
+        title: "Q: What do I do after I register?",
+        content: `Wait for a follow-up email with more details. Invite your friends! It'll be fun! Hacking is more exciting with a crew, here's the link to share: https://cmu.ca1.qualtrics.com/jfe/form/SV_2nrluKEiu0VOgLA`,
+      },
+      {
         title: "Q: I’m not a “hacker”, can I still participate?",
         content: `Students of all skill levels are encouraged to attend, even if you’ve never written a line of code! Creative individuals of all kinds are welcome to apply — such as designers, ECE majors, statistics, etc. The only requirement is your attitude to learn!`,
       },
       {
         title: "Q: Are there teams? Do I need one to sign up!",
-        content: `Working as a team is highly encouraged, but not required. We'll be facilitating team-forming the day-of, so don't be discouraged if you don't have a team!`,
+        content: `Working as a team is highly encouraged, but not required. We'll be facilitating team-forming the day-of, so don't be discouraged if you don't have a team! We don't actually track team formations until project submission, where you'll list your crew and their contributions to code, design, and ideation.`,
       },
       {
         title: "Q: How big can a team be?!",
-        content: `Up to 4 people!`,
+        content: `There is a maximum final team size which is up to 4 people!`,
       },
       {
         title: "Q: What are the rules? Can I work on my project ahead of time?",
@@ -50,7 +58,7 @@ const FaqPage = () => {
       },
       {
         title: "Q: Any other questions, comments, or concerns?",
-        content: `Email us at acm-exec@cs.cmu.edu.`,
+        content: `Email us at acm-exec@cs.cmu.edu. We'd also love for you to follow us on social media @acmatcmu, LinkedIn group, keep up with our website, and join our Discord server :)`,
       },
     ],
   };

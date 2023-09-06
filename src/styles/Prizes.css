@@ -4,7 +4,6 @@
 }
 .prizes-page * {
   overflow-x: hidden !important;
-
 }
 .prizes-page .prizes-content {
   height: 100%;
@@ -17,6 +16,15 @@
   font-weight: 600;
   font-size: 5em;
   color: whitesmoke;
+}
+
+.prize-title {
+  margin-top: 2vh;
+  font-family: "Roboto Mono", monospace;
+  font-size: 5vh;
+  font-weight: 200;
+  color: whitesmoke;
+  margin-bottom: 1vh;
 }
 .prizes-page {
   width: 100%;
@@ -45,7 +53,6 @@
 .prizes-caption {
   width: 100vh;
   text-align: center;
-
 }
 .prizes-caption-header {
   text-align: center;
@@ -57,7 +64,7 @@
   text-align: center;
   position: relative;
   z-index: 2;
-  background-color: black; 
+  background-color: black;
 }
 .prizes-caption-img-sep {
   width: 10vh;
@@ -78,7 +85,7 @@
 }
 .prizes-list b {
   color: #c04343;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .react-slideshow-container {
@@ -95,7 +102,7 @@
   background-size: contain;
   border: 13px solid #cc0000;
   z-index: 10;
-  border-radius: 20px;
+  border-radius: 1.5em;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -103,7 +110,7 @@
 }
 .each-slide-effect > div {
   display: fit;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   background-size: contain;
   height: 100%;
@@ -130,15 +137,14 @@
   max-height: 100%;
   background-size: center;
   overflow-y: scroll;
-
-  ;
 }
-#prize-image{
-  height: 475px;
-  
+#prize-image {
+  height: 60vh;
+  width: 70vh;
+  border-radius: 1em;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 768px) {
   .prizes-page .prizes-title {
     font-size: 4.5em;
   }
@@ -152,26 +158,29 @@
   .prizes-list {
     font-size: 1.3em;
   }
+
   .prizes-img-and-caption {
     margin: 0vh auto;
+    display: flex;
+    flex-direction: column;
   }
   .prizes-page .prizes-caption-header {
     height: 5vh;
   }
   .react-slideshow-container {
     width: 70vw;
-    height: 70w;
+    height: 70vh;
     margin: auto;
   }
   .each-slide-effect > div {
-    align-items: flex-start;
+    align-items: center;
     background-size: cover;
     border-radius: 10px;
     width: 60vw;
   }
   .each-slide-effect span {
     font-size: 1.2em;
-    
+
     /* margin-top: 50%; */
   }
 }

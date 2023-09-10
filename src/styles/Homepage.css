@@ -608,6 +608,18 @@
   bottom: 0;
 }
 
+@media screen and (max-width:700px){
+  #stars{
+    display: none;
+  }
+  #stars2{
+    display: none;
+  }
+  #stars2a{
+    display: none;
+  } 
+}
+
 @keyframes animStar {
   from {
     transform: translateY(0px);

@@ -8,6 +8,7 @@
 .prizes-page .prizes-content {
   height: 100%;
 }
+
 .prizes-page .prizes-header {
   height: 5vh;
 }
@@ -92,7 +93,6 @@
   width: 80vh;
   color: #cd2406;
   background-size: contain;
-  overflow-y: scroll;
 }
 .react-slideshow-container {
   width: 100vh;
@@ -106,7 +106,6 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  overflow-y: scroll;
 }
 .each-slide-effect > div {
   display: fit;
@@ -115,7 +114,6 @@
   background-size: contain;
   height: 100%;
   width: 100%;
-  overflow-y: scroll;
 }
 
 .each-slide-effect span {
@@ -130,13 +128,11 @@
   bottom: 0; /* Adjust this value if needed */
   margin: 0 auto;
   color: white;
-  overflow-y: scroll;
 }
 .prizes-img-and-caption img {
   max-width: 100%;
   max-height: 100%;
   background-size: center;
-  overflow-y: scroll;
 }
 #prize-image {
   height: 60vh;

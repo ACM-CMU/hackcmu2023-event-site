@@ -39,7 +39,15 @@ const fridaySchedule = () => {
           <p>9:00 - 9:30 PM</p>
         </div>
         <div class="col">
-          <p>Workshop A / Team Match B</p>
+          <p>Workshop A</p>
+        </div>
+      </div>
+      <div class="schedule-event workshop">
+        <div class="col">
+          <p>9:00 - 9:25 PM</p>
+        </div>
+        <div class="col">
+          <p>Team Matching B/ Cup Stacking (MLH)</p>
         </div>
       </div>
       <div class="schedule-event workshop">
@@ -48,6 +56,23 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Workshop B</p>
+        </div>
+      </div>
+      <div class="schedule-event workshop">
+        <div class="col">
+          <p>9:30 - 10:00 PM</p>
+        </div>
+        <div class="col">
+          <p>Orbital Edge Computing | Machine Learning (GDSC)</p>
+          <p class="details">Interested in learning TensorFlow? Come <a href="https://gdsc.community.dev/events/details/developer-student-clubs-carnegie-mellon-university-presents-gdsc-presents-machine-learning-in-tensorflow-a-hackcmu-workshop/" class="custom-link">attend our workshop</a> with GDSC!</p>
+        </div>
+      </div>
+      <div class="schedule-event workshop">
+        <div class="col">
+          <p>10:00 - 10:25 PM</p>
+        </div>
+        <div class="col">
+          <p>Meet the Team (ACM) | Capture the Flag (picoCTF)</p>
         </div>
       </div>
       <div class="schedule-event workshop">
@@ -64,7 +89,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Midnight Snack</p>
-          <p class="details">Among Us / Scavengar Hunt</p>
+          <p class="details">Scavengar Hunt!</p>
         </div>
       </div>
     </div>
@@ -82,6 +107,22 @@ const saturdaySchedule = () => {
           <p>Breakfast</p>
           <p class="details">Tepper 1101</p>
           <p class="details">Get breakfast after a long night of hacking!</p>
+        </div>
+      </div>
+      <div class="schedule-event foods">
+        <div class="col">
+          <p>10:00 - 10:30 AM</p>
+        </div>
+        <div class="col">
+          <p>The Trade Desk Info Session</p>
+        </div>
+      </div>
+      <div class="schedule-event foods">
+        <div class="col">
+          <p>10:30 - 11:00 AM</p>
+        </div>
+        <div class="col">
+          <p>Sandia National Labs Info Session</p>
         </div>
       </div>
       <div class="schedule-event workshop">

@@ -39,23 +39,7 @@ const fridaySchedule = () => {
           <p>9:00 - 9:30 PM</p>
         </div>
         <div class="col">
-          <p>Workshop A</p>
-        </div>
-      </div>
-      <div class="schedule-event workshop">
-        <div class="col">
-          <p>9:00 - 9:25 PM</p>
-        </div>
-        <div class="col">
-          <p>Team Matching B/ Cup Stacking (MLH)</p>
-        </div>
-      </div>
-      <div class="schedule-event workshop">
-        <div class="col">
-          <p>9:30 - 10:00 PM</p>
-        </div>
-        <div class="col">
-          <p>Workshop B</p>
+          <p>Team Matching B / Cup Stacking (MLH)</p>
         </div>
       </div>
       <div class="schedule-event workshop">
@@ -69,18 +53,10 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event workshop">
         <div class="col">
-          <p>10:00 - 10:25 PM</p>
+          <p>10:00 - 10:30 PM</p>
         </div>
         <div class="col">
-          <p>Meet the Team (ACM) | Capture the Flag (picoCTF)</p>
-        </div>
-      </div>
-      <div class="schedule-event workshop">
-        <div class="col">
-          <p>10:30 - 11:00 PM</p>
-        </div>
-        <div class="col">
-          <p>Workshop C</p>
+          <p>Meet the ACM@CMU Organizing Team (free boba!) | Capture the Flag (picoCTF)</p>
         </div>
       </div>
       <div class="schedule-event foods">

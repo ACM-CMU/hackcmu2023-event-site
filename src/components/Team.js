@@ -6,7 +6,7 @@ import tanisha from '../images/team/tanishasaxena.jpg'
 import aarav from '../images/team/aaravbajaj.jpg'
 import alexis from '../images/team/alexisduong.jpg'
 import jackson from '../images/team/jacksonchen.jpg'
-import divyaansh from '../images/team/divyaanshsinha.jpg'
+import katie from '../images/team/katieguo.jpg'
 
 const Team = () => {
     return (
@@ -29,9 +29,11 @@ const Team = () => {
                 <a href="https://www.linkedin.com/in/aarav-bajaj-408ab01b1/"><img src={aarav}
                     data-src={aarav} alt="Aarav Bajaj" width="10%" /></a>
                 <a href="https://www.linkedin.com/in/alexis-duong/"><img src={alexis}
-                    data-src={aarav} alt="Alexis Doung" width="10%" /></a>
+                    data-src={alexis} alt="Alexis Doung" width="10%" /></a>
                 <a href="https://www.linkedin.com/in/zanzaochen/"><img src={jackson}
-                    data-src={aarav} alt="Jackson Chen" width="10%" /></a>
+                    data-src={jackson} alt="Jackson Chen" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/kt-g/"><img src={katie}
+                    data-src={katie} alt="Katie Guo" width="10%" /></a>
             </div>
         </div>
       </div>

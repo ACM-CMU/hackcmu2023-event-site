@@ -7,6 +7,7 @@ import aarav from '../images/team/aaravbajaj.jpg'
 import alexis from '../images/team/alexisduong.jpg'
 import jackson from '../images/team/jacksonchen.jpg'
 import katie from '../images/team/katieguo.jpg'
+import yichuan from '../images/team/yichuanluo.jpg'
 
 const Team = () => {
     return (
@@ -34,6 +35,8 @@ const Team = () => {
                     data-src={jackson} alt="Jackson Chen" width="10%" /></a>
                 <a href="https://www.linkedin.com/in/kt-g/"><img src={katie}
                     data-src={katie} alt="Katie Guo" width="10%" /></a>
+                <a href="https://www.linkedin.com/in/yichuanl/"><img src={yichuan}
+                    data-src={yichuan} alt="Yichuan Luo" width="10%" /></a>
             </div>
         </div>
       </div>

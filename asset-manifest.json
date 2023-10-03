@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/hackcmu/static/css/main.c5a5c0db.css",
-    "main.js": "/hackcmu/static/js/main.e4e9838e.js",
+    "main.js": "/hackcmu/static/js/main.da0d909b.js",
     "static/js/787.e8e90110.chunk.js": "/hackcmu/static/js/787.e8e90110.chunk.js",
+    "static/media/yichuanluo.jpg": "/hackcmu/static/media/yichuanluo.997dceb22cb4cc58d33b.jpg",
     "static/media/iss-lego-set.jpeg": "/hackcmu/static/media/iss-lego-set.7f0d58b445a19433f940.jpeg",
     "static/media/jacksonchen.jpg": "/hackcmu/static/media/jacksonchen.46c9075552d42a663e44.jpg",
     "static/media/hero.png": "/hackcmu/static/media/hero.6e3eae12894b3fba2cbc.png",
@@ -39,11 +40,11 @@
     "static/media/hrt-logo.webp": "/hackcmu/static/media/hrt-logo.9918f7213abb7724c291.webp",
     "index.html": "/hackcmu/index.html",
     "main.c5a5c0db.css.map": "/hackcmu/static/css/main.c5a5c0db.css.map",
-    "main.e4e9838e.js.map": "/hackcmu/static/js/main.e4e9838e.js.map",
+    "main.da0d909b.js.map": "/hackcmu/static/js/main.da0d909b.js.map",
     "787.e8e90110.chunk.js.map": "/hackcmu/static/js/787.e8e90110.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a5c0db.css",
-    "static/js/main.e4e9838e.js"
+    "static/js/main.da0d909b.js"
   ]
 }

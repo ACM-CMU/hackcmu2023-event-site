@@ -15,7 +15,7 @@
   height: 5vh;
 }
 .schedule-page .schedule-title {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 600;
   font-size: 5em;
   color: whitesmoke;
@@ -52,13 +52,13 @@
 }
 
 .main-event2 {
-  background-color: #d5462d;
+  background-color: #5392be;
 }
 .workshop {
-  background-color: #a60808;
+  background-color: #c0578e;
 }
 .foods {
-  background-color: #6d0000;
+  background-color: #363a65;
 }
 
 .schedule-day-button {
@@ -66,7 +66,7 @@
   border-radius: 10px;
   font-size: 1.75rem;
   font-weight: 900;
-  background: #ca6b12;
+  background: #52bdcd;
   cursor: pointer;
   color: white;
   border: 0px solid white;
@@ -105,6 +105,10 @@
 .schedule-event .col:last-child {
   flex-basis: 60%;
   border-left: 3px solid white;
+}
+.schedule-header-word {
+  font-family: "Montserrat", monospace;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 460px) {

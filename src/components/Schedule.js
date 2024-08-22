@@ -9,8 +9,8 @@ const fridaySchedule = () => {
           <p>5:30 - 6:00 PM</p>
         </div>
         <div class="col">
-          <p>Check-in / Team Match A</p>
-          <p class="details">Tepper 1101</p>
+          <p>Check-in</p>
+          <p class="details">Rashid Auditorium (GHC 4401)</p>
           <p class="details">Check in with organizers and find team members</p>
         </div>
       </div>
@@ -20,8 +20,8 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Opening Ceremony</p>
-          <p class="details">Tepper 1101</p>
-          <p class="details">Join us for the opening ceremony of HackCMU 2023!</p>
+          <p class="details">Rashid Auditorium (GHC 4401)</p>
+          <p class="details">Join us for the opening ceremony of HackCMU 2024!</p>
         </div>
       </div>
       <div class="schedule-event foods">
@@ -30,7 +30,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Dinner & Sponsor Fair</p>
-          <p class="details">Tepper 1101</p>
+          <p class="details">Rashid Auditorium (GHC 4401)</p>
           <p class="details">Meet our amazing event sponsors!</p>
         </div>
       </div>
@@ -39,24 +39,7 @@ const fridaySchedule = () => {
           <p>9:00 - 9:30 PM</p>
         </div>
         <div class="col">
-          <p>Team Matching B / Cup Stacking (MLH)</p>
-        </div>
-      </div>
-      <div class="schedule-event workshop">
-        <div class="col">
-          <p>9:30 - 10:00 PM</p>
-        </div>
-        <div class="col">
-          <p>Orbital Edge Computing | Machine Learning (GDSC)</p>
-          <p class="details">Interested in learning TensorFlow? Come <a href="https://gdsc.community.dev/events/details/developer-student-clubs-carnegie-mellon-university-presents-gdsc-presents-machine-learning-in-tensorflow-a-hackcmu-workshop/" class="custom-link">attend our workshop</a> with GDSC!</p>
-        </div>
-      </div>
-      <div class="schedule-event workshop">
-        <div class="col">
-          <p>10:00 - 10:30 PM</p>
-        </div>
-        <div class="col">
-          <p>Meet the ACM@CMU Organizing Team (free boba!) | Capture the Flag (picoCTF)</p>
+          <p>Meet the ACM@CMU Organizing Team</p>
         </div>
       </div>
       <div class="schedule-event foods">
@@ -65,7 +48,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Midnight Snack</p>
-          <p class="details">Scavengar Hunt!</p>
+          <p class="details">Scavenger Hunt!</p>
         </div>
       </div>
     </div>
@@ -81,32 +64,8 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Breakfast</p>
-          <p class="details">Tepper 1101</p>
+          <p class="details">Rashid Auditorium (GHC 4401)</p>
           <p class="details">Get breakfast after a long night of hacking!</p>
-        </div>
-      </div>
-      <div class="schedule-event foods">
-        <div class="col">
-          <p>10:00 - 10:30 AM</p>
-        </div>
-        <div class="col">
-          <p>The Trade Desk Info Session</p>
-        </div>
-      </div>
-      <div class="schedule-event foods">
-        <div class="col">
-          <p>10:30 - 11:00 AM</p>
-        </div>
-        <div class="col">
-          <p>Sandia National Labs Info Session</p>
-        </div>
-      </div>
-      <div class="schedule-event workshop">
-        <div class="col">
-          <p>10:00 - 11:30 PM</p>
-        </div>
-        <div class="col">
-          <p>Sponsor Workshops</p>
         </div>
       </div>
       <div class="schedule-event foods">
@@ -119,7 +78,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>1:00 PM</p>
+          <p>3:00 PM</p>
         </div>
         <div class="col">
           <p>Project Submission Deadline</p>
@@ -129,7 +88,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>2:00 - 2:30 PM</p>
+          <p>4:00 - 4:30 PM</p>
         </div>
         <div class="col">
           <p>Judging</p>
@@ -137,7 +96,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>3:00 - 4:00 PM</p>
+          <p>4:30 - 5:00 PM</p>
         </div>
         <div class="col">
           <p>Expo</p>
@@ -145,7 +104,7 @@ const saturdaySchedule = () => {
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>4:00 - 5:00 PM</p>
+          <p>5:00 - 6:00 PM</p>
         </div>
         <div class="col">
           <p>Closing Ceremony</p>
@@ -192,14 +151,14 @@ const Schedule = () => {
         </div>
         <div class="schedule-days">
           <button class="schedule-day-button" id="friday" onClick={showFriday}>
-            <span class="schedule-header-word">FRIDAY 9/15</span>
+            <span class="schedule-header-word">FRIDAY 9/13</span>
           </button>
           <button
             class="schedule-day-button"
             id="saturday"
             onClick={showSaturday}
           >
-            <span class="schedule-header-word">SATURDAY 9/16</span>
+            <span class="schedule-header-word">SATURDAY 9/14</span>
           </button>
         </div>
         <div class="schedule" id="schedule">

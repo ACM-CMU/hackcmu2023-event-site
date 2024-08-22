@@ -15,7 +15,7 @@
   
 }
 .faq-page .faq-title {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', monospace;
   font-weight: 600;
   font-size: 5em;
   color: whitesmoke;
@@ -62,11 +62,11 @@
 }
 
 .row-title-text {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   background-image: linear-gradient(
     45deg,
-    #9c0f0f,
-    #9c0f0f
+    #363a65,
+    #363a65
   );
   background-clip: text;
   font-weight: bold;
@@ -107,15 +107,15 @@
   position: relative;
   background-image: linear-gradient(
     45deg,
-    #cd2406,
-    #cd2406
+    #363a65,
+    #363a65
   );
   padding: 50px;
   border-radius: 25px;
   z-index: 2;
 }
 .faq-row-wrapper {
-  color: rgb(105, 225, 255);
+  color: #363a65;
 }
 .faq-row-wrapper {
   /* padding: 5vh 20vh 10vh 20vh; */
@@ -130,8 +130,8 @@
   clip-path: circle(50%);
   background-image: linear-gradient(
     45deg,
-    rgb(234, 137, 137),
-    rgb(252, 0, 0)
+    #363a65,
+    #363a65
   );
   
 }

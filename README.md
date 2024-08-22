@@ -1,4 +1,4 @@
-# HackCMU 2023 Event Website 
+# HackCMU 2024 Event Website 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Ensure git and npm are installed on your computer.   
 The deployed website can be found here: https://www.acmatcmu.com/hackcmu/
 

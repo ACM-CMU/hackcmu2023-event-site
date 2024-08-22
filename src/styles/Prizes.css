@@ -13,7 +13,7 @@
   height: 5vh;
 }
 .prizes-page .prizes-title {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 600;
   font-size: 5em;
   color: whitesmoke;
@@ -21,7 +21,7 @@
 
 .prize-title {
   margin-top: 2vh;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   font-size: 5vh;
   font-weight: 200;
   color: whitesmoke;

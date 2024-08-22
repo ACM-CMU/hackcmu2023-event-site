@@ -15,8 +15,6 @@ function App() {
       <Homepage/>
       <Schedule/>
       <FaqPage/>
-      <Prizes/>
-      <Team/>
       <Sponsors/>
     </div>
   );

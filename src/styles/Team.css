@@ -15,7 +15,7 @@
     height: 5vh;
   }
   .team-page .team-title {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", monospace;
     font-weight: 600;
     font-size: 5em;
     letter-spacing: 3px;
@@ -52,7 +52,7 @@
   }
   
   .main-event {
-    background-color: rgb(131, 131, 237);
+    background-color: rgb(142, 142, 239);
   }
   .workshops {
     background-color: rgb(128, 156, 199);

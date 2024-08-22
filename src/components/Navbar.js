@@ -2,6 +2,7 @@ import "../styles/Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { slide as Menu } from "react-burger-menu";
+import logo from "../images/logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = () => {
             <span>2</span>
             <span>0</span>
             <span>2</span>
-            <span>3</span>
+            <span>4</span>
           </div>
           {/* <img className='navbar-logo' src="../../hackcmu-logo-black-short.png"></img>                 */}
         </Link>
@@ -63,7 +64,7 @@ const Navbar = () => {
             <div className="link">Sponsors</div>
           </Link>
           <a
-            id="mlh-trust-badge"
+            id="acm-website"
             style={{
               display: "block",
               maxWidth: "100px",
@@ -74,12 +75,12 @@ const Navbar = () => {
               width: "10%",
               zIndex: 10000,
             }}
-            href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
+            href="acmatcmu.com"
             target="_blank"
           >
             <img
-              src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
-              alt="Major League Hacking 2024 Hackathon Season"
+              src={logo}
+              alt="ACM@CMU Website"
               style={{ width: "100%" }}
             />
           </a>

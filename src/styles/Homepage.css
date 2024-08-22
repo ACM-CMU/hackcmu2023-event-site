@@ -6,24 +6,36 @@
   justify-content: center;
   align-items: center;
 }
-.home-page * {
-  overflow-x: visible !important;
+.home-page {
+  width: 100%;
+  height: 100vh;
+  min-height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../../src/images/stars.png"); Update the path to your image */
+  background-color: #181420;
+  background-size: cover; /* Cover the entire component */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the background image */
 }
+
 .home-page .home-page-caption {
   color: white;
   z-index: 4;
   position: relative;
 }
 .home-page .home-page-logo-pic {
-  width: 70vh;
+  width: 140vh;
   z-index: 4;
+  overflow: hidden;
   position: relative;
   top: 10vh;
   left: -3vh;
 }
 
 .home-page .home-page-logo {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   font-size: 8em;
   letter-spacing: 3px;
   position: relative;
@@ -56,8 +68,8 @@
   /* margin: auto; */
   border: 3px solid white;
   border-radius: 2vh;
-  background-color: #a60808;
-  font-family: "Roboto Mono", monospace;
+  background-color: #33234c;
+  font-family: "Montserrat", monospace;
   font-weight: 600;
   vertical-align: middle;
   top: 70px;
@@ -73,7 +85,7 @@
 }
 
 .sign-up-text {
-  font-weight: 1000;
+  font-weight: 800;
 }
 
 #participant-button {
@@ -105,7 +117,7 @@
   top: -4em;
 }
 .home-page .home-page-circle {
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
   margin: auto;
   position: absolute;
@@ -167,7 +179,7 @@
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background: black;
+  background: white;
   border-radius: 50%;
 }
 
@@ -188,13 +200,17 @@
     height: 100vh;
   }
   .home-page-content {
-    position: relative;
+    width: 100%;
+    position: fixed;
+     bottom: 0;
+     right: 0;
+
     /* left: 5vw;
     top: -10vw; */
   }
   .home-page-logo-pic {
     margin: auto;
-    width: 90vw !important;
+    width: 90vw;
     position: relative;
     top: 1vw !important;
     left: 0vw !important;
@@ -209,7 +225,29 @@
     margin: 0vh auto io !important;
   }
 }
-
+@media only screen and (max-width: 460px) {
+  .home-page {
+    height: 100vh;
+    background-position: center center; /* Adjust for very small screens */
+  }
+  .home-page-logo-pic {
+    width: 90vw;
+    position: relative;
+    top: 1vw !important;
+    left: 0vw !important;
+  }
+  .sign-up-button {
+    font-size: 1.2em;
+    width: 7em;
+    height: 3em;
+    line-height: 1.2em;
+    position: fixed;
+     bottom: 0;
+     right: 0;
+    /* top: 10px; */
+    margin: 0vh auto !important;
+  }
+}
 #stars {
   width: 2px;
   height: 5.53px;

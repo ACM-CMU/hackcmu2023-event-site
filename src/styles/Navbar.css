@@ -8,7 +8,7 @@
   overflow-x: visible !important;
 }
 .navbar .navbar-logo {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   margin-left: 2em;
   color: #ffffff;
   font-size: 2em;
@@ -20,7 +20,8 @@
 }
 /* #8200b6, #cc14ff, #ff00e0) */
 .navbar-logo span {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 /*
 .navbar-logo span:nth-child(1) {
@@ -92,7 +93,7 @@
 }
 .navbar .links-container .link {
   font-size: 1.3em;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   margin-left: 1em;
   padding-left: 0.75em;
   cursor: pointer;
@@ -183,7 +184,7 @@
   bottom: 5px;
   left: 5px;
   right: 5px;
-  background: black;
+  background: white;
   border-radius: 50%;
 }
 

@@ -10,11 +10,11 @@ const FaqPage = () => {
       },
       {
         title: "Q: What is this year's theme?",
-        content: `This year's theme is "Space"!`,
+        content: `This year's theme is "Cyberpunk"!`,
       },
       {
         title: "Q: When will project categories be released?",
-        content: `At the latest, project categories and sponsors will be released during our opening ceremony on Friday, September 15th. Please don't start or work on your project submissions before then, though considering ideas is acceptable. `,
+        content: `At the latest, project categories and sponsors will be released during our opening ceremony on Friday, September 13th. Please don't start or work on your project submissions before then, though considering ideas is acceptable. `,
       },
       {
         title: "Q: What if I'm an undergrad / graduate / doctoral student?",
@@ -22,7 +22,7 @@ const FaqPage = () => {
       },
       {
         title: "Q: Where will HackCMU be held?",
-        content: `HackCMU will mostly place in Tepper Simmons, but there are also designated hacking areas in Gates!`,
+        content: `HackCMU will mostly place in Rashid Auditorium, but there are also designated hacking areas in Gates!`,
       },
       {
         title: "Q: How much does this cost?",

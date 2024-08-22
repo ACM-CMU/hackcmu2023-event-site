@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/hackcmu/static/css/main.c5a5c0db.css",
-    "main.js": "/hackcmu/static/js/main.da0d909b.js",
+    "main.css": "/hackcmu/static/css/main.8ae4b417.css",
+    "main.js": "/hackcmu/static/js/main.0cd3a3d9.js",
     "static/js/787.e8e90110.chunk.js": "/hackcmu/static/js/787.e8e90110.chunk.js",
+    "static/media/2024cyberpunk.png": "/hackcmu/static/media/2024cyberpunk.e8d2832dd1d725749288.png",
     "static/media/yichuanluo.jpg": "/hackcmu/static/media/yichuanluo.997dceb22cb4cc58d33b.jpg",
     "static/media/iss-lego-set.jpeg": "/hackcmu/static/media/iss-lego-set.7f0d58b445a19433f940.jpeg",
     "static/media/jacksonchen.jpg": "/hackcmu/static/media/jacksonchen.46c9075552d42a663e44.jpg",
@@ -31,20 +32,22 @@
     "static/media/TheTradeDesk_Logo_White.png": "/hackcmu/static/media/TheTradeDesk_Logo_White.55525b1e83c9b196b034.png",
     "static/media/BaksoSapi.otf": "/hackcmu/static/media/BaksoSapi.cceb2bbde22cd3a98fc6.otf",
     "static/media/boba-plush.jpg": "/hackcmu/static/media/boba-plush.0767a354f5d7fb63cecb.jpg",
+    "static/media/hrtlogo.png": "/hackcmu/static/media/hrtlogo.a8dcc340510eb00346b3.png",
     "static/media/citadel-logo.png": "/hackcmu/static/media/citadel-logo.77c4cab29fb604482d3b.png",
     "static/media/logo_horizontal_blue_registered.png": "/hackcmu/static/media/logo_horizontal_blue_registered.773d893c0a5f6816f702.png",
+    "static/media/logo.png": "/hackcmu/static/media/logo.c3494bbcbf974d91f080.png",
     "static/media/aaravbajaj.jpg": "/hackcmu/static/media/aaravbajaj.33ae2fa89adb453ced3c.jpg",
     "static/media/jefferyjohn.jpg": "/hackcmu/static/media/jefferyjohn.5732816ab7f0c2a03f8f.jpg",
     "static/media/SIG_Logo.png": "/hackcmu/static/media/SIG_Logo.81d8673fb4c5ff45e151.png",
     "static/media/tanishasaxena.jpg": "/hackcmu/static/media/tanishasaxena.9689bcb1f1ca8e6eb4a9.jpg",
-    "static/media/hrt-logo.webp": "/hackcmu/static/media/hrt-logo.9918f7213abb7724c291.webp",
+    "static/media/scmlogo.svg": "/hackcmu/static/media/scmlogo.066ee8897bf8a5b59315a1dfba01fb33.svg",
     "index.html": "/hackcmu/index.html",
-    "main.c5a5c0db.css.map": "/hackcmu/static/css/main.c5a5c0db.css.map",
-    "main.da0d909b.js.map": "/hackcmu/static/js/main.da0d909b.js.map",
+    "main.8ae4b417.css.map": "/hackcmu/static/css/main.8ae4b417.css.map",
+    "main.0cd3a3d9.js.map": "/hackcmu/static/js/main.0cd3a3d9.js.map",
     "787.e8e90110.chunk.js.map": "/hackcmu/static/js/787.e8e90110.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5a5c0db.css",
-    "static/js/main.da0d909b.js"
+    "static/css/main.8ae4b417.css",
+    "static/js/main.0cd3a3d9.js"
   ]
 }

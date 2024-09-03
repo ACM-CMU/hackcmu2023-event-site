@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url("../../src/images/stars.png"); Update the path to your image */
+  background-image: url("../../src/images/2024cyberpunk.png"); /*Update the path to your image */
   background-color: #181420;
   background-size: cover; /* Cover the entire component */
   background-position: center; /* Center the background image */

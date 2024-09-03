@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/hackcmu/static/css/main.8ae4b417.css",
-    "main.js": "/hackcmu/static/js/main.0cd3a3d9.js",
+    "main.css": "/hackcmu/static/css/main.15726d57.css",
+    "main.js": "/hackcmu/static/js/main.034a6563.js",
     "static/js/787.e8e90110.chunk.js": "/hackcmu/static/js/787.e8e90110.chunk.js",
-    "static/media/2024cyberpunk.png": "/hackcmu/static/media/2024cyberpunk.e8d2832dd1d725749288.png",
+    "static/media/2024cyberpunk.png": "/hackcmu/static/media/2024cyberpunk.89ba01023a19eb67eb14.png",
     "static/media/yichuanluo.jpg": "/hackcmu/static/media/yichuanluo.997dceb22cb4cc58d33b.jpg",
     "static/media/iss-lego-set.jpeg": "/hackcmu/static/media/iss-lego-set.7f0d58b445a19433f940.jpeg",
     "static/media/jacksonchen.jpg": "/hackcmu/static/media/jacksonchen.46c9075552d42a663e44.jpg",
@@ -42,12 +42,12 @@
     "static/media/tanishasaxena.jpg": "/hackcmu/static/media/tanishasaxena.9689bcb1f1ca8e6eb4a9.jpg",
     "static/media/scmlogo.svg": "/hackcmu/static/media/scmlogo.066ee8897bf8a5b59315a1dfba01fb33.svg",
     "index.html": "/hackcmu/index.html",
-    "main.8ae4b417.css.map": "/hackcmu/static/css/main.8ae4b417.css.map",
-    "main.0cd3a3d9.js.map": "/hackcmu/static/js/main.0cd3a3d9.js.map",
+    "main.15726d57.css.map": "/hackcmu/static/css/main.15726d57.css.map",
+    "main.034a6563.js.map": "/hackcmu/static/js/main.034a6563.js.map",
     "787.e8e90110.chunk.js.map": "/hackcmu/static/js/787.e8e90110.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ae4b417.css",
-    "static/js/main.0cd3a3d9.js"
+    "static/css/main.15726d57.css",
+    "static/js/main.034a6563.js"
   ]
 }
